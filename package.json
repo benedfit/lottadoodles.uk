@@ -1,0 +1,102 @@
+{
+  "name": "lottadoodles.uk",
+  "description": "Personal website of Charlotte Edwards",
+  "version": "1.0.0",
+  "author": "Ben Edwards",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benedfit/lottadoodles.uk.git"
+  },
+  "homepage": "https://github.com/benedfit/lottadoodles.uk/#readme",
+  "bugs": {
+    "url": "https://github.com/benedfit/lottadoodles.uk/issues"
+  },
+  "files": [
+    "public",
+    "src",
+    ".env",
+    "jsconfig.json",
+    "next-sitemap.js",
+    "next.config.js",
+    "postcss.config.js",
+    "site.config.js"
+  ],
+  "scripts": {
+    "prepare": "husky",
+    "clean": "rm -rf {.next,public/{robots.txt,sitemap*.xml}}",
+    "start": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "serve": "next start",
+    "test": "yarn lint",
+    "lint": "concurrently yarn:lint:*",
+    "lint:js": "eslint --cache --ignore-path .gitignore .",
+    "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
+    "format": "concurrently yarn:format:*",
+    "format:js": "yarn lint:js --fix",
+    "format:css": "yarn lint:css --fix"
+  },
+  "dependencies": {
+    "@newhighsco/chipset": "6.16.6",
+    "@newhighsco/next-plugin-svgr": "3.0.151",
+    "@newhighsco/press-start": "2.3.0",
+    "next": "15.1.4",
+    "next-compose-plugins": "2.2.1",
+    "next-sitemap": "4.2.3",
+    "next-videos": "1.5.0",
+    "postcss": "8.4.49",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "sass": "1.83.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.6.1",
+    "@newhighsco/browserslist-config": "1.1.0",
+    "@newhighsco/commitlint-config": "1.1.45",
+    "@newhighsco/editor-config": "1.2.0",
+    "@newhighsco/eslint-config": "4.0.249",
+    "@newhighsco/postcss-config": "3.5.305",
+    "@newhighsco/prettier-config": "2.1.28",
+    "@newhighsco/release-config": "1.3.97",
+    "@newhighsco/stylelint-config": "4.0.0",
+    "concurrently": "9.1.2",
+    "eslint": "8.57.1",
+    "husky": "9.1.7",
+    "prettier": "3.4.2",
+    "semantic-release": "24.2.1",
+    "stylelint": "16.12.0"
+  },
+  "browserslist": [
+    "extends @newhighsco/browserslist-config"
+  ],
+  "commitlint": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@newhighsco/eslint-config"
+    ],
+    "root": true
+  },
+  "prettier": "@newhighsco/prettier-config",
+  "release": {
+    "extends": "@newhighsco/release-config",
+    "branches": [
+      "main"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "local>newhighsco/.github:renovate-config"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@newhighsco/stylelint-config"
+    ]
+  }
+}
