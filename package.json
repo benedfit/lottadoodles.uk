@@ -92,6 +92,9 @@
   "renovate": {
     "extends": [
       "local>newhighsco/.github:renovate-config"
+    ],
+    "reviewers": [
+      "@benedfit"
     ]
   },
   "stylelint": {
