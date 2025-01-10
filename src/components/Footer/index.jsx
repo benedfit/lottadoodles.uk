@@ -1,6 +1,3 @@
-import config from '@config'
-import footer from '@data/footer.json'
-import { ReactComponent as InstagramIcon } from '@images/icons/instagram.svg'
 import {
   FooterContainer,
   Grid,
@@ -10,6 +7,10 @@ import {
 } from '@newhighsco/chipset'
 import Link from 'next/link'
 import React from 'react'
+
+import config from '~config'
+import footer from '~data/footer.json'
+import { ReactComponent as InstagramIcon } from '~images/icons/instagram.svg'
 
 import styles from './Footer.module.scss'
 
