@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.1.0...v1.1.1) (2025-01-10)
+
+
+### Bug Fixes
+
+* typo ([eea5909](https://github.com/benedfit/lottadoodles.uk/commit/eea590920faa63cff121cccfca41bcd99d5baa66))
+
 # [1.1.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.0.0...v1.1.0) (2025-01-10)
 
 
