@@ -15,7 +15,7 @@ const config = {
     vector: logoVector
   },
   openGraphImage: openGraphImage.src,
-  themeColor: colors.black,
+  themeColor: colors.sky,
   socialLinks: {
     instagram: 'https://www.instagram.com/lotta.doodles/'
   }
