@@ -1,4 +1,4 @@
-import { Prose } from 'newhighsco/chipset'
+import { Prose } from '@newhighsco/chipset'
 import { object } from 'prop-types'
 import React from 'react'
 
