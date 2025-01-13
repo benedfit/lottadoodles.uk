@@ -27,7 +27,7 @@ const iconLinks = [
 const Footer = () => (
   <FooterContainer gutter theme={{ root: styles.root }}>
     <Grid valign="middle">
-      <Grid.Item sizes={['one-half']}>
+      <Grid.Item sizes="one-half">
         <Navigation
           links={footer.links}
           renderLink={({ href, children, ...rest }) => (
@@ -38,7 +38,7 @@ const Footer = () => (
           theme={{ link: styles.link }}
         />
       </Grid.Item>
-      <Grid.Item sizes={['one-half']} align="right">
+      <Grid.Item sizes="one-half" align="right">
         <Navigation
           links={iconLinks}
           renderLink={({ text, icon: IconSvg, ...rest }) => (
