@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.3.0...v1.4.0) (2025-01-13)
+
+
+### Features
+
+* **logo:** add logo to `Header` ([1df160f](https://github.com/benedfit/lottadoodles.uk/commit/1df160f5227af7b120428baa60c53eef06936730))
+
 # [1.3.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.2.0...v1.3.0) (2025-01-13)
 
 
