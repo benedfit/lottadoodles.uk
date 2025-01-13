@@ -1,5 +1,11 @@
+@use '~styles/breakpoints.module';
 @use '~styles/functions';
+@use '~styles/mixins';
 
 .root {
   padding: functions.spacing(2);
+
+  @include mixins.mq(breakpoints.$tablet) {
+    padding: functions.spacing(4);
+  }
 }
