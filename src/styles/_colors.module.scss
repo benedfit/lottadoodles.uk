@@ -1,15 +1,19 @@
 $black: #000;
 $white: #fff;
-$sky: #d0fff9;
-$sea: #2c76d7;
-$sundown: #eda7a7;
-$sunglow: #fdc740;
+$space: #113058;
+$sky: #cefef8;
+$sea: #2c76d8;
+$land: #9ce4a3;
+$sundown: #eea7a7;
+$sunglow: #fec740;
 
 :export {
   black: $black;
   white: $white;
+  space: $space;
   sky: $sky;
   sea: $sea;
+  land: $land;
   sundown: $sundown;
   sunglow: $sunglow;
 }
