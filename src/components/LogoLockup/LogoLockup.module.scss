@@ -1,6 +1,7 @@
 @use '~styles/functions';
 
-.icon {
+.root {
   fill: currentColor;
-  width: functions.spacing(4);
+  max-width: 100%;
+  width: functions.spacing(75);
 }

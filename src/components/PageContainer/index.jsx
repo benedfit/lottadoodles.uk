@@ -3,10 +3,11 @@ import { Meta } from '@newhighsco/press-start'
 import { node, object } from 'prop-types'
 import React from 'react'
 
+import Footer from '~components/Footer'
 import Header from '~components/Header'
 
 const PageContainer = ({ meta, children }) => (
-  <ThemedPageContainer gutter header={<Header />}>
+  <ThemedPageContainer gutter header={<Header />} footer={<Footer />}>
     <Meta {...meta} />
     {children}
   </ThemedPageContainer>

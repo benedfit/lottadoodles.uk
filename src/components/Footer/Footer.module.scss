@@ -1,13 +1,5 @@
 @use '~styles/functions';
 
-.link {
-  &:hover,
-  &:active,
-  &:focus {
-    text-decoration: underline;
-  }
-}
-
 .icon {
   fill: currentColor;
   width: functions.spacing(4);

@@ -4,9 +4,20 @@
 @use '~styles/fonts.module';
 @use '~styles/font-faces';
 
+:root {
+  --colors-black: #{colors.$black};
+  --colors-white: #{colors.$white};
+  --colors-space: #{colors.$space};
+  --colors-sky: #{colors.$sky};
+  --colors-sea: #{colors.$sea};
+  --colors-land: #{colors.$land};
+  --colors-sundown: #{colors.$sundown};
+  --colors-sunglow: #{colors.$sunglow};
+}
+
 body {
   background-color: colors.$sky;
-  color: colors.$black;
+  color: colors.$space;
   font-size: 18px;
   line-height: 1.5;
   font-family: fonts.$body;

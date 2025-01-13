@@ -1,17 +1,14 @@
-.logo {
-  width: auto;
-}
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
 
-.links {
-  flex-grow: 1;
-  text-align: right;
-  width: auto;
-}
+.root {
+  background: colors.$white;
+  border-radius: functions.spacing(4) functions.spacing(4) 0 0;
+  text-align: center;
 
-.link {
-  &:hover,
-  &:active,
-  &:focus {
-    text-decoration: underline;
+  @include mixins.mq(breakpoints.$tablet) {
+    border-radius: functions.spacing(6) functions.spacing(6) 0 0;
   }
 }
