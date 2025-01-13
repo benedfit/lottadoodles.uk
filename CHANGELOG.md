@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.1.2...v1.2.0) (2025-01-13)
+
+
+### Features
+
+* **images:** update sharing image ([53a890f](https://github.com/benedfit/lottadoodles.uk/commit/53a890f9099e14d61c6a3441061a7a89513d8312))
+
 ## [1.1.2](https://github.com/benedfit/lottadoodles.uk/compare/v1.1.1...v1.1.2) (2025-01-12)
 
 
