@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.2.0...v1.3.0) (2025-01-13)
+
+
+### Bug Fixes
+
+* **colors:** update colors to match designs ([e417069](https://github.com/benedfit/lottadoodles.uk/commit/e41706955c87d5bff209467fe9c05deb17b2594d))
+
+
+### Features
+
+* **container:** more padding at larger breakpoints ([f6b4784](https://github.com/benedfit/lottadoodles.uk/commit/f6b4784d0907374287f38d2ba928f848134bc5df))
+* **meta:** change title and description format ([2002ad4](https://github.com/benedfit/lottadoodles.uk/commit/2002ad4a014696ee0bb1ad407df72a1ede415284))
+
 # [1.2.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.1.2...v1.2.0) (2025-01-13)
 
 
