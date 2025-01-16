@@ -3,7 +3,7 @@ import { string } from 'prop-types'
 import React from 'react'
 
 import config from '~config'
-import { ReactComponent as LogoSvg } from '~images/logo.svg'
+import { ReactComponent as LogoSvg } from '~images/logo-lockup.svg'
 
 import styles from './LogoLockup.module.scss'
 
