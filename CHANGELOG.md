@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.7.0...v1.8.0) (2025-01-16)
+
+
+### Features
+
+* **logo:** avatar versions ([f3e7b1a](https://github.com/benedfit/lottadoodles.uk/commit/f3e7b1ae6d5d4861ae40d106edeeff315996c70f))
+
 # [1.7.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.6.0...v1.7.0) (2025-01-16)
 
 
