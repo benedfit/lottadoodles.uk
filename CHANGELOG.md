@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.6.0...v1.7.0) (2025-01-16)
+
+
+### Features
+
+* **logo:** create lockup ([6feca40](https://github.com/benedfit/lottadoodles.uk/commit/6feca40a70fc6b0e07baa2dd8b28ad9e11f93671))
+
 # [1.6.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.5.0...v1.6.0) (2025-01-16)
 
 
