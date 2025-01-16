@@ -1,0 +1,41 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+
+    @include mixins.mq(breakpoints.$tablet) {
+      font-size: 1.25em;
+    }
+
+    @include mixins.mq(breakpoints.$desktop) {
+      font-size: 1.5em;
+    }
+  }
+
+  a[href] {
+    color: colors.$sundown;
+    text-decoration: underline 1px wavy colors.$sunglow;
+    text-underline-offset: functions.spacing(0.5);
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: colors.$sunglow;
+      text-decoration-color: colors.$sundown;
+    }
+  }
+
+  ol,
+  ul {
+    margin-left: functions.spacing(4);
+  }
+}
