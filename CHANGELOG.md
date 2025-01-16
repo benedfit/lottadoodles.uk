@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.5.0...v1.6.0) (2025-01-16)
+
+
+### Features
+
+* fonts ([8948ee5](https://github.com/benedfit/lottadoodles.uk/commit/8948ee58da4206aa137daad57990c500551fe1ec))
+* **prose:** 404 page content ([548be15](https://github.com/benedfit/lottadoodles.uk/commit/548be15bee009048db2de6781d482bdef474b6e8))
+
 # [1.5.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.4.1...v1.5.0) (2025-01-16)
 
 
