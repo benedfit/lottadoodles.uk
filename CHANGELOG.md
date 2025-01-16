@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.4.1...v1.5.0) (2025-01-16)
+
+
+### Features
+
+* restyle header ([c5e2ff8](https://github.com/benedfit/lottadoodles.uk/commit/c5e2ff86d5f661428acead82eadc75e1d085afcb))
+
 ## [1.4.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.4.0...v1.4.1) (2025-01-15)
 
 
