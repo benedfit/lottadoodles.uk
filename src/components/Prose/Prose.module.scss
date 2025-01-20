@@ -4,6 +4,8 @@
 @use '~styles/mixins';
 
 .root {
+  margin-inline: auto;
+
   h1,
   h2,
   h3,
@@ -36,6 +38,11 @@
 
   ol,
   ul {
-    margin-left: functions.spacing(4);
+    list-style-position: inside;
+    margin-inline: functions.spacing(4);
+
+    ::marker {
+      content: '☆ ';
+    }
   }
 }
