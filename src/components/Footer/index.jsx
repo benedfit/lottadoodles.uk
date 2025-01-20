@@ -8,6 +8,7 @@ import {
 import React from 'react'
 
 import config from '~config'
+import { ReactComponent as BlueskyIcon } from '~images/icons/bluesky.svg'
 import { ReactComponent as InstagramIcon } from '~images/icons/instagram.svg'
 
 import styles from './Footer.module.scss'
@@ -19,6 +20,12 @@ const iconLinks = [
     text: `Follow ${shortName} on Instagram`,
     icon: InstagramIcon,
     target: '_blank'
+  },
+  {
+    href: socialLinks.bluesky,
+    text: `Follow ${shortName} on Bluesky`,
+    icon: BlueskyIcon,
+    target: '_blank'
   }
 ]
 
@@ -27,6 +34,7 @@ const Footer = () => (
     <Grid valign="middle">
       <Grid.Item align="right">
         <Navigation
+          inline
           links={iconLinks}
           renderLink={({ text, icon: IconSvg, ...rest }) => (
             <SmartLink {...rest}>
@@ -35,6 +43,7 @@ const Footer = () => (
               </Icon>
             </SmartLink>
           )}
+          theme={{ item: styles.link }}
         />
       </Grid.Item>
     </Grid>
