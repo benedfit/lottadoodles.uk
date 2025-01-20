@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.8.2...v1.9.0) (2025-01-20)
+
+
+### Features
+
+* **social:** add Bluesky link to footer ([614408f](https://github.com/benedfit/lottadoodles.uk/commit/614408fa1065b6e7ae98a67be37262fe58e84b4f))
+
 ## [1.8.2](https://github.com/benedfit/lottadoodles.uk/compare/v1.8.1...v1.8.2) (2025-01-19)
 
 
