@@ -5,7 +5,6 @@ import colors from '~styles/_colors.module.scss'
 
 const config = {
   url: process.env.NEXT_PUBLIC_SITE_URL,
-  type: 'Person',
   name: 'lottadoodles',
   fullName: 'Charlotte Edwards',
   shortName: 'Charlotte',

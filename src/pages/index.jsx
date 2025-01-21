@@ -7,19 +7,17 @@ import urlJoin from 'url-join'
 import PageContainer from '~components/PageContainer'
 import config from '~config'
 
-const { fullName, shortName, title, logo, socialLinks, url, type } = config
+const { fullName, shortName, title, logo, socialLinks, url } = config
 
 const HomePage = ({ meta }) => (
   <PageContainer meta={meta}>
     <SocialProfileJsonLd
-      type={type}
+      type="Person"
       name={fullName}
       url={url}
       sameAs={Object.values(socialLinks)}
     />
-    {logo?.bitmap && (
-      <LogoJsonLd type={type} url={url} logo={urlJoin(url, logo.bitmap)} />
-    )}
+    {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <Prose align="center">
       <h1>{shortName}</h1>
       <ul>
