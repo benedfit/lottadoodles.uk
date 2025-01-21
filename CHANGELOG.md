@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.9.0...v1.9.1) (2025-01-21)
+
+
+### Bug Fixes
+
+* **json-ld:** correct logo type ([d412e4c](https://github.com/benedfit/lottadoodles.uk/commit/d412e4c98c40f810ca9c04ac108352e87d7b0cc0))
+
 # [1.9.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.8.2...v1.9.0) (2025-01-20)
 
 
