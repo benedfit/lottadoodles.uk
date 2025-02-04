@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.9.4...v1.10.0) (2025-02-04)
+
+
+### Features
+
+* **social:** add link to YouTube ([930738a](https://github.com/benedfit/lottadoodles.uk/commit/930738a1ff69bd31d2aaef02ae1569dff3314109))
+
 ## [1.9.4](https://github.com/benedfit/lottadoodles.uk/compare/v1.9.3...v1.9.4) (2025-02-02)
 
 
