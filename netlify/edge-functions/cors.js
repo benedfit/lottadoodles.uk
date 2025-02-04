@@ -7,7 +7,9 @@ export default async (request, { next }) => {
     response.headers.set('Access-Control-Allow-Credentials', 'true')
   }
 
+  console.log(111, origin)
+
   return response
 }
 
-export const config = { name: 'Set WIX headers', path: ['/college/*'] }
+export const config = { name: 'Set CORS headers', path: ['/college/*'] }
