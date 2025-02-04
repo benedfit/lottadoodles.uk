@@ -10,6 +10,7 @@ import React from 'react'
 import config from '~config'
 import { ReactComponent as BlueskyIcon } from '~images/icons/bluesky.svg'
 import { ReactComponent as InstagramIcon } from '~images/icons/instagram.svg'
+import { ReactComponent as YouTubeIcon } from '~images/icons/youtube.svg'
 
 import styles from './Footer.module.scss'
 
@@ -18,14 +19,17 @@ const iconLinks = [
   {
     href: socialLinks.instagram,
     text: `Follow ${shortName} on Instagram`,
-    icon: InstagramIcon,
-    target: '_blank'
+    icon: InstagramIcon
   },
   {
     href: socialLinks.bluesky,
     text: `Follow ${shortName} on Bluesky`,
-    icon: BlueskyIcon,
-    target: '_blank'
+    icon: BlueskyIcon
+  },
+  {
+    href: socialLinks.youtube,
+    text: `Subscribe to ${shortName} on YouTube`,
+    icon: YouTubeIcon
   }
 ]
 
@@ -37,7 +41,7 @@ const Footer = () => (
           inline
           links={iconLinks}
           renderLink={({ text, icon: IconSvg, ...rest }) => (
-            <SmartLink {...rest}>
+            <SmartLink {...rest} target="_blank">
               <Icon theme={{ root: styles.icon }} alt={text}>
                 {IconSvg && <IconSvg />}
               </Icon>

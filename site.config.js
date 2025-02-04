@@ -18,8 +18,9 @@ const config = {
   openGraphImage: openGraphImage.src,
   themeColor: colors.sky,
   socialLinks: {
-    instagram: 'https://www.instagram.com/lotta.doodles/',
-    bluesky: 'https://bsky.app/profile/lottadoodles.uk'
+    instagram: 'https://www.instagram.com/lotta.doodles',
+    bluesky: 'https://bsky.app/profile/lottadoodles.uk',
+    youtube: 'https://www.youtube.com/@lottadoodles'
   }
 }
 
