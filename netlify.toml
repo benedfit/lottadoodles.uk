@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/college/*"
+  to = "https://charlotte8539.wixsite.com/charlotteeanimation/:splat"
+  status = 200
+  force = true
