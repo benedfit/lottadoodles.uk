@@ -4,8 +4,24 @@
 
 .root {
   padding-inline: functions.spacing(2);
+  position: relative;
 
   @include mixins.mq(breakpoints.$tablet) {
     padding-inline: functions.spacing(4);
+  }
+
+  &::before {
+    content: '';
+    background: url('../../images/background.png');
+    background-size: 20em;
+    background-position: 50% 1em;
+    opacity: 0.8;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    @include mixins.mq(breakpoints.$tablet) {
+      background-size: 35em;
+    }
   }
 }
