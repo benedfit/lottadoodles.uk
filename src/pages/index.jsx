@@ -19,11 +19,14 @@ const HomePage = ({ meta }) => (
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <Prose align="center">
-      <h1>{shortName}</h1>
-      <ul>
-        <li>animation + game design student</li>
-        <li>fantasy + character art</li>
-      </ul>
+      <h1>
+        <strong>Hello! I'm {shortName}</strong>, an animation and game design
+        student based in the UK.
+      </h1>
+      <p>
+        I create work with a focus on fantasy illustration, portrait art and
+        character design as well as some 3D modelling and animation.
+      </p>
     </Prose>
   </PageContainer>
 )

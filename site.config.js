@@ -9,8 +9,9 @@ const config = {
   fullName: 'Charlotte Edwards',
   shortName: 'Charlotte',
   titleTemplate: name => `%s ☆ ${name}`,
-  title: 'lottadoodles ☆ animation + game design student',
-  description: 'animation + game design student ☆ fantasy + character art',
+  title: 'lottadoodles ☆ animation and game design student',
+  description:
+    'animation and game design student ☆ fantasy illustration, portrait art and character design',
   logo: {
     bitmap: logoBitmap.src,
     vector: logoVector
