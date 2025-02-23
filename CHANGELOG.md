@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.10.6...v1.11.0) (2025-02-23)
+
+
+### Features
+
+* background pattern ([8ce4e4b](https://github.com/benedfit/lottadoodles.uk/commit/8ce4e4be276295ec831459dc3fcf0c3d31d1aa1e))
+
 ## [1.10.6](https://github.com/benedfit/lottadoodles.uk/compare/v1.10.5...v1.10.6) (2025-02-20)
 
 
