@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.12.11...v1.13.0) (2025-04-09)
+
+
+### Features
+
+* **sitemap:** remove `lastmod` ([3720e54](https://github.com/benedfit/lottadoodles.uk/commit/3720e54ef53fa45f9ac6f1f6407ea2978e487f3b))
+
 ## [1.12.11](https://github.com/benedfit/lottadoodles.uk/compare/v1.12.10...v1.12.11) (2025-04-05)
 
 
