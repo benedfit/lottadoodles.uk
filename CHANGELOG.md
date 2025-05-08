@@ -1,3 +1,10 @@
+## [1.13.14](https://github.com/benedfit/lottadoodles.uk/compare/v1.13.13...v1.13.14) (2025-05-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.3.2 ([#60](https://github.com/benedfit/lottadoodles.uk/issues/60)) ([ad8819b](https://github.com/benedfit/lottadoodles.uk/commit/ad8819b2764bb5f2fb6438dca00e93687942d94b))
+
 ## [1.13.13](https://github.com/benedfit/lottadoodles.uk/compare/v1.13.12...v1.13.13) (2025-05-07)
 
 
