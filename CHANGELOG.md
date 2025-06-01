@@ -1,3 +1,10 @@
+## [1.13.26](https://github.com/benedfit/lottadoodles.uk/compare/v1.13.25...v1.13.26) (2025-06-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.89.1 ([#78](https://github.com/benedfit/lottadoodles.uk/issues/78)) ([5a73a19](https://github.com/benedfit/lottadoodles.uk/commit/5a73a19f9390e3997ab624d19bedbd572a97b09d))
+
 ## [1.13.25](https://github.com/benedfit/lottadoodles.uk/compare/v1.13.24...v1.13.25) (2025-05-31)
 
 
