@@ -15,6 +15,14 @@ const nextConfig = {
     defaultLocale: 'en'
   },
   poweredByHeader: false,
+  redirects: () => [
+    {
+      source: '/portfolio/:slug*',
+      destination:
+        'https://charlotte8539.wixsite.com/charlotteeanimation/:slug*',
+      permanent: true
+    }
+  ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],
   webpack: config => {
     config.module.rules.push({
