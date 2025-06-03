@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.13.27...v1.14.0) (2025-06-03)
+
+
+### Features
+
+* **redirects:** add `/portfolio` ([a4a95f7](https://github.com/benedfit/lottadoodles.uk/commit/a4a95f75f5cbb97c1b8c42bf1c402be6201aa123))
+
 ## [1.13.27](https://github.com/benedfit/lottadoodles.uk/compare/v1.13.26...v1.13.27) (2025-06-03)
 
 
