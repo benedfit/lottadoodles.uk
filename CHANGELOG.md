@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.14.8...v1.15.0) (2025-06-24)
+
+
+### Features
+
+* add link to portfolio ([bca2e1d](https://github.com/benedfit/lottadoodles.uk/commit/bca2e1db95bae08926696eec1ada29707b6e2596))
+
 ## [1.14.8](https://github.com/benedfit/lottadoodles.uk/compare/v1.14.7...v1.14.8) (2025-06-21)
 
 
