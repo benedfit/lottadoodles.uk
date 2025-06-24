@@ -1,4 +1,4 @@
-import { Prose } from '@newhighsco/chipset'
+import { Button, ContentContainer, Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { object } from 'prop-types'
 import React from 'react'
@@ -28,6 +28,9 @@ const HomePage = ({ meta }) => (
         character design as well as some 3D modelling and animation.
       </p>
     </Prose>
+    <ContentContainer align="center">
+      <Button href="/portfolio">Portfolio</Button>
+    </ContentContainer>
   </PageContainer>
 )
 

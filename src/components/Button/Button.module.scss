@@ -1,0 +1,21 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  background: colors.$sunglow;
+  border: 2px dotted colors.$sundown;
+  color: colors.$black;
+  border-radius: functions.spacing(2);
+  font-weight: bold;
+  padding: functions.spacing(1) functions.spacing(4);
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: colors.$sundown;
+    border-color: colors.$sunglow;
+  }
+}
