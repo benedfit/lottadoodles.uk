@@ -5,6 +5,7 @@ import { object } from 'prop-types'
 import React from 'react'
 import urlJoin from 'url-join'
 
+import Avatar from '~components/Avatar'
 import PageContainer from '~components/PageContainer'
 import config from '~config'
 
@@ -20,6 +21,7 @@ const HomePage = ({ meta }) => (
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
     <Prose align="center">
+      <Avatar />
       <h1>
         <strong>Hello! I'm {shortName}</strong>, an animation and game design
         student based in the UK.
