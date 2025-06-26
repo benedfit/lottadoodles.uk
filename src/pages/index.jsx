@@ -1,4 +1,5 @@
 import { Button, ContentContainer, Prose } from '@newhighsco/chipset'
+import Link from 'next/link'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { object } from 'prop-types'
 import React from 'react'
@@ -29,7 +30,9 @@ const HomePage = ({ meta }) => (
       </p>
     </Prose>
     <ContentContainer align="center">
-      <Button href="/portfolio">Portfolio</Button>
+      <Link href="/portfolio" passHref legacyBehavior prefetch={false}>
+        <Button>Portfolio</Button>
+      </Link>
     </ContentContainer>
   </PageContainer>
 )
