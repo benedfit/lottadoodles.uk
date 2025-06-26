@@ -1,3 +1,10 @@
+## [1.15.2](https://github.com/benedfit/lottadoodles.uk/compare/v1.15.1...v1.15.2) (2025-06-26)
+
+
+### Bug Fixes
+
+* **portfolio:** wrap link correctly ([0bc17f0](https://github.com/benedfit/lottadoodles.uk/commit/0bc17f088371308cf4ce1e41e4481d943db1d951))
+
 ## [1.15.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.15.0...v1.15.1) (2025-06-26)
 
 
