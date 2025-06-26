@@ -11,3 +11,13 @@
     border-radius: functions.spacing(6);
   }
 }
+
+.backdrop {
+  background-size: 20em;
+  background-position: 50% 1em;
+  opacity: 0.8;
+
+  @include mixins.mq(breakpoints.$tablet) {
+    background-size: 35em;
+  }
+}
