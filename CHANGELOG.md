@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.15.2...v1.16.0) (2025-06-26)
+
+
+### Features
+
+* **avatar:** add to homepage ([c8c2654](https://github.com/benedfit/lottadoodles.uk/commit/c8c2654c4c56c1bd39d4f379f4ff44f57e5fe85c))
+
 ## [1.15.2](https://github.com/benedfit/lottadoodles.uk/compare/v1.15.1...v1.15.2) (2025-06-26)
 
 
