@@ -28,9 +28,7 @@ const PageContainer = ({ meta, children }) => {
           <Backdrop
             className={styles.backdrop}
             style={{ backgroundImage: `url(${src})` }}
-          >
-            &nbsp;
-          </Backdrop>
+          />
         </>
       }
     >
