@@ -12,7 +12,7 @@ const Avatar = () => (
     alt=""
     width={1000}
     height={1000}
-    sizes="150px"
+    sizes="9rem"
     priority
   />
 )
