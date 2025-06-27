@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.16.0...v1.17.0) (2025-06-27)
+
+
+### Features
+
+* **footer:** add link to TikTok ([568fc52](https://github.com/benedfit/lottadoodles.uk/commit/568fc52bc7d67069a0daf93dcf7a7adb14c377be)), closes [#92](https://github.com/benedfit/lottadoodles.uk/issues/92)
+
 # [1.16.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.15.2...v1.16.0) (2025-06-26)
 
 
