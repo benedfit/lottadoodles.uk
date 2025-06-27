@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.17.0...v1.17.1) (2025-06-27)
+
+
+### Bug Fixes
+
+* **avatar:** optimize width ([cb72b32](https://github.com/benedfit/lottadoodles.uk/commit/cb72b321a2f571e7dbe8871a2e474739a8f53f07))
+
 # [1.17.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.16.0...v1.17.0) (2025-06-27)
 
 
