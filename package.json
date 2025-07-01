@@ -59,7 +59,7 @@
     "@newhighsco/eslint-config": "4.1.35",
     "@newhighsco/postcss-config": "3.5.337",
     "@newhighsco/prettier-config": "2.1.32",
-    "@newhighsco/release-config": "1.4.5",
+    "@newhighsco/release-config": "1.4.6",
     "@newhighsco/stylelint-config": "4.0.17",
     "concurrently": "9.2.0",
     "eslint": "8.57.1",
