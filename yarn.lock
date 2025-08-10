@@ -1793,10 +1793,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.42":
-  version "4.1.42"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.42.tgz#3a22c47ce466bc043e3c0fc0722327778539cce7"
-  integrity sha512-Vbjo/dBhin97d2QJhdzTtrNaQ2q8rpWuSrpO0t5FUKCIjN9geTU0cBlpmdBC4KiXk64rP+H9rkSdZacl3V2TcQ==
+"@newhighsco/eslint-config@4.1.43":
+  version "4.1.43"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.43.tgz#1a904d825e4e3360faf81120bb8c8d11f2f61ddf"
+  integrity sha512-5QvoWwo7ydPlQvESQySGHjnHmIyD9lYZIXi6hzQKAJt0+798arJnfeAOhorfm4XKGYCRZsom6wbl61WjBzUf1g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1811,7 +1811,7 @@
     eslint-plugin-jsx-a11y "6.10.2"
     eslint-plugin-mdx "3.6.2"
     eslint-plugin-n "17.15.1"
-    eslint-plugin-prettier "5.5.3"
+    eslint-plugin-prettier "5.5.4"
     eslint-plugin-promise "7.2.1"
     eslint-plugin-react "7.37.5"
     eslint-plugin-react-hooks "5.2.0"
@@ -1829,21 +1829,21 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.340":
-  version "3.5.340"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.340.tgz#74a68bc1ef8989ecefef4cdecfad10bdeddda8cb"
-  integrity sha512-mgMXB1BIfvMwLvmFfaY3PkXRZLqzMusAWF/fQxSrhYa9tTZ84G9nMRw1zSRKZ8Q5ZD+vk2n9MVeo5NUH1evy4A==
+"@newhighsco/postcss-config@3.5.341":
+  version "3.5.341"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.341.tgz#e06afc948199d86f5b7d5433b3db1e97bcfe21af"
+  integrity sha512-QlEGtQBl2y6ocuLreZEyTUvLuK8NYT7T4dJ1Nn5iBf6O/LN9EBm3a9eQ+Bwz9nXgs3+JT+y/55iUtM5/rz4DSg==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
-    caniuse-lite "1.0.30001731"
+    caniuse-lite "1.0.30001733"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.2.4"
 
-"@newhighsco/press-start@2.3.274":
-  version "2.3.274"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.274.tgz#b0b05daec8ee38ee4f2d90cb18b33a93806a8afe"
-  integrity sha512-9qxbD01a3OdHJ6XvznfdTMWU/CdZ3szr3qcm35AefxcL8HcRNf7Js1OOQtFYULRyc0D+AX6ErNcgmjJXdSC2EQ==
+"@newhighsco/press-start@2.3.279":
+  version "2.3.279"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.3.279.tgz#736fa7e2c24350e06cba499736740cd5edd5e0dd"
+  integrity sha512-HERx9ijbqJJv01TGpJKXp0eBp3aYoQMcQJDPfFtVkmX94Boi5QI/8sbjxBABZSD0EKNaAndnN7E6G8tRmxa9cg==
   dependencies:
     next-seo "6.8.0"
 
@@ -3565,10 +3565,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001731, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
-  version "1.0.30001731"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001731.tgz#277c07416ea4613ec564e5b0ffb47e7b60f32e2f"
-  integrity sha512-lDdp2/wrOmTRWuoB5DpfNkC0rJDU8DqRa6nYL6HK6sytw70QMopt/NIc/9SM7ylItlBWfACXk0tEn37UWM/+mg==
+caniuse-lite@1.0.30001733, caniuse-lite@^1.0.30001579, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
+  version "1.0.30001733"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001733.tgz#918405ed6647a62840fb328832cf5a03f986974b"
+  integrity sha512-e4QKw/O2Kavj2VQTKZWrwzkt3IxOmIlU6ajRb6LP64LHpBo1J67k2Hi4Vu/TgJWsNtynurfS0uK3MaUTCPfu5Q==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -4982,10 +4982,10 @@ eslint-plugin-n@17.15.1:
     minimatch "^9.0.5"
     semver "^7.6.3"
 
-eslint-plugin-prettier@5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.3.tgz#1f88e9220a72ac8be171eec5f9d4e4d529b5f4a0"
-  integrity sha512-NAdMYww51ehKfDyDhv59/eIItUVzU0Io9H2E8nHNGKEeeqlnci+1gCvrHib6EmZdf6GxF+LCV5K7UC65Ezvw7w==
+eslint-plugin-prettier@5.5.4:
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.4.tgz#9d61c4ea11de5af704d4edf108c82ccfa7f2e61c"
+  integrity sha512-swNtI95SToIz05YINMA6Ox5R057IMAmWZ26GqPxusAp1TZzj+IdY9tXNWWD3vkF/wEqydCONcwjTFpxybBqZsg==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.11.7"
