@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-import avatarUrl from '~images/avatar.png'
+import avatarUrl from '~images/avatar.jpg'
 
 import styles from './Avatar.module.scss'
 
