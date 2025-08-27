@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.18.1...v1.19.0) (2025-08-27)
+
+
+### Features
+
+* **press-start:** use `LinkProvider` ([#135](https://github.com/benedfit/lottadoodles.uk/issues/135)) ([08d55c6](https://github.com/benedfit/lottadoodles.uk/commit/08d55c627853455f3b8bb3e5caeebc1984947216))
+
 ## [1.18.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.18.0...v1.18.1) (2025-08-27)
 
 
