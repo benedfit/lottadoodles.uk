@@ -39,7 +39,7 @@ const Footer = () => (
                   theme={{ root: styles.icon }}
                   alt={[prefix, shortName, 'on', key].join(' ')}
                 >
-                  {IconSvg && <IconSvg />}
+                  <IconSvg />
                 </Icon>
               </SmartLink>
             )

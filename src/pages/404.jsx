@@ -1,5 +1,4 @@
 import { Prose, SmartLink } from '@newhighsco/chipset'
-import Link from 'next/link'
 import { object } from 'prop-types'
 import React from 'react'
 
@@ -12,10 +11,7 @@ const NotFoundPage = ({ meta }) => (
       <p>We’re sorry but we couldn’t find the page you were looking for.</p>
       <p>
         Please try another address or{' '}
-        <Link href="/" passHref legacyBehavior>
-          <SmartLink>return to the homepage</SmartLink>
-        </Link>
-        .
+        <SmartLink href="/">return to the homepage</SmartLink>.
       </p>
     </Prose>
   </PageContainer>
