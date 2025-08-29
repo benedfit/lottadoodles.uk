@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.19.1...v1.20.0) (2025-08-29)
+
+
+### Features
+
+* **svg:** use `@newhighsco/svgr-config` ([#138](https://github.com/benedfit/lottadoodles.uk/issues/138)) ([c200fff](https://github.com/benedfit/lottadoodles.uk/commit/c200fffabe55c9a6203b4d861147646a73063d27))
+
 ## [1.19.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.19.0...v1.19.1) (2025-08-28)
 
 
