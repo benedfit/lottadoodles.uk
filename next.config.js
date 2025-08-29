@@ -17,7 +17,7 @@ const nextConfig = {
   poweredByHeader: false,
   redirects: () => [
     {
-      source: '/portfolio/:slug*',
+      source: '/college/:slug*',
       destination:
         'https://charlotte8539.wixsite.com/charlotteeanimation/:slug*',
       permanent: true

@@ -3,21 +3,16 @@ import {
   PageContainer as ThemedPageContainer
 } from '@newhighsco/chipset'
 import { Meta } from '@newhighsco/press-start'
-import { getImageProps } from 'next/image'
 import { node, object } from 'prop-types'
 import React from 'react'
 
 import Footer from '~components/Footer'
 import Header from '~components/Header'
-import backdropUrl from '~images/backdrop.png'
+import backdropUrl from '~images/backdrop.svg'
 
 import styles from './PageContainer.module.scss'
 
 const PageContainer = ({ meta, children }) => {
-  const {
-    props: { src }
-  } = getImageProps({ src: backdropUrl })
-
   return (
     <ThemedPageContainer
       gutter
@@ -27,7 +22,7 @@ const PageContainer = ({ meta, children }) => {
           <Footer />
           <Backdrop
             className={styles.backdrop}
-            style={{ backgroundImage: `url(${src})` }}
+            style={{ backgroundImage: `url(${backdropUrl})` }}
           />
         </>
       }
