@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { Image } from '@newhighsco/chipset'
 import React from 'react'
 
 import avatarUrl from '~images/avatar.jpg'
@@ -9,7 +9,6 @@ const Avatar = () => (
   <Image
     className={styles.root}
     src={avatarUrl}
-    alt=""
     width={1000}
     height={1000}
     sizes="9rem"
