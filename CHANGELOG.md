@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.20.0...v1.21.0) (2025-08-29)
+
+
+### Features
+
+* use `ImageProvider` ([#139](https://github.com/benedfit/lottadoodles.uk/issues/139)) ([d4c6497](https://github.com/benedfit/lottadoodles.uk/commit/d4c6497994dd6a6bfd30be280631f8d88e2eb3c3))
+
 # [1.20.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.19.1...v1.20.0) (2025-08-29)
 
 
