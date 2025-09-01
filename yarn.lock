@@ -1796,10 +1796,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
-"@newhighsco/chipset@6.21.0":
-  version "6.21.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.21.0.tgz#e52e52fbd225e7955c6d0c3e7041a9ff16bdb5b8"
-  integrity sha512-/RX8s+jDc2OHVg2YshcW/Kypaujzq+CSNWvGiOQG+nbOluue9i084PQfypFGA2TadYjJQnpRJsYXyi4MvtKNEg==
+"@newhighsco/chipset@6.22.0":
+  version "6.22.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.22.0.tgz#25cbef72ab61cb1cd2851e7f3093714fd4bb182a"
+  integrity sha512-Hj+wO6Xp2tSrtCO/WW1FmvyQYT0FozDlZEcmrlaLYzastAWUi2bnv699fIvq2tUn3dQz3T81WvlYhGIP95IeDg==
   dependencies:
     "@dr.pogodin/react-themes" "1.9.2"
     classnames "2.5.1"
@@ -1851,22 +1851,23 @@
     file-loader "6.2.0"
     url-loader "4.1.1"
 
-"@newhighsco/postcss-config@3.5.345":
-  version "3.5.345"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.345.tgz#4ad4062b915ccee1b90245b92b67964123663c68"
-  integrity sha512-v1lvYeS2byx+BHhYCy49MDC8JrlilQ4BYWfWTJ/JBblOFCawF2A69VUjXWFKhkvrgD1GwpJkhz1DTGG7q96v1Q==
+"@newhighsco/postcss-config@3.5.347":
+  version "3.5.347"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.347.tgz#e64ec6e908a642b984a5c70d13ee9019e4ffd883"
+  integrity sha512-JXuskB6Uxd9oesRJdKL6XLvRBbYKX0k193F38PTbfkw/vrG3XVpST6Ttq0A3UUtPoZm5Z4zJtC3tw6azBi83bA==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
     caniuse-lite "1.0.30001737"
     postcss-flexbugs-fixes "5.0.2"
-    postcss-preset-env "10.3.0"
+    postcss-preset-env "10.3.1"
 
-"@newhighsco/press-start@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.5.0.tgz#77468031cd4ec1a1cfb89b1ffb876cd815a1c7d0"
-  integrity sha512-WcLkwOmSDWBuooTIG+2yeAnTOCSJP4MrbsOfRiCJSGwg/g/0+OHw2KbjXPA4hoVfaV5J9SQsPl6BTnaqhFbFPQ==
+"@newhighsco/press-start@2.6.3":
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.6.3.tgz#641791d229aa0d2d1ce48730140fbf7813ad3018"
+  integrity sha512-mPtwudFJsHN6Ql516UewH2SkqYcLqJp/3aBy+ppR39P9Aj9VaFE2Ya42LO3zw+EEvgtG0t66VuECVXk006mI3w==
   dependencies:
+    "@newhighsco/chipset" "6.22.0"
     next-seo "6.8.0"
 
 "@newhighsco/prettier-config@2.1.32":
@@ -4178,10 +4179,10 @@ css-functions-list@^3.2.3:
   resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.2.3.tgz#95652b0c24f0f59b291a9fc386041a19d4f40dbe"
   integrity sha512-IQOkD3hbR5KrN93MtcYuad6YPuTSUhntLHDuLEbFWE+ff2/XSZNdZG+LcbbIW5AXKg/WFIfYItIzVoHngHXZzA==
 
-css-has-pseudo@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/css-has-pseudo/-/css-has-pseudo-7.0.2.tgz#fb42e8de7371f2896961e1f6308f13c2c7019b72"
-  integrity sha512-nzol/h+E0bId46Kn2dQH5VElaknX2Sr0hFuB/1EomdC7j+OISt2ZzK7EHX9DZDY53WbIVAR7FYKSO2XnSf07MQ==
+css-has-pseudo@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/css-has-pseudo/-/css-has-pseudo-7.0.3.tgz#a5ee2daf5f70a2032f3cefdf1e36e7f52a243873"
+  integrity sha512-oG+vKuGyqe/xvEMoxAQrhi7uY16deJR3i7wwhBerVrGQKSqUC5GiOVxTpM9F9B9hw0J+eKeOWLH7E9gZ1Dr5rA==
   dependencies:
     "@csstools/selector-specificity" "^5.0.0"
     postcss-selector-parser "^7.0.0"
@@ -9662,10 +9663,10 @@ postcss-place@^10.0.0:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.3.0.tgz#5040c09717bf25131072459431ca27281e9c7029"
-  integrity sha512-khE99iwEbWLzXBVFNsS0QdnfYXDpqH/pxoHFcaCaVlh+e29swc3UyiLSSJ89dTK8e+Si3wNKYDGs6jEMmbE8TQ==
+postcss-preset-env@10.3.1:
+  version "10.3.1"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.3.1.tgz#f3799f0f7a7ea384b3c16e073055c231d11bb3bf"
+  integrity sha512-8ZOOWVwQ0iMpfEYkYo+U6W7fE2dJ/tP6dtEFwPJ66eB5JjnFupfYh+y6zo+vWDO72nGhKOVdxwhTjfzcSNRg4Q==
   dependencies:
     "@csstools/postcss-alpha-function" "^1.0.0"
     "@csstools/postcss-cascade-layers" "^5.0.2"
@@ -9705,7 +9706,7 @@ postcss-preset-env@10.3.0:
     autoprefixer "^10.4.21"
     browserslist "^4.25.1"
     css-blank-pseudo "^7.0.1"
-    css-has-pseudo "^7.0.2"
+    css-has-pseudo "^7.0.3"
     css-prefers-color-scheme "^10.0.0"
     cssdb "^8.4.0"
     postcss-attribute-case-insensitive "^7.0.1"
