@@ -1,9 +1,18 @@
+@use '~styles/functions';
+
 .root {
   text-align: center;
+  border-radius: functions.spacing(2);
+
+  // &[role='link']:hover {
+  //   border: 1px solid red;
+  // }
 }
 
 .heading {
   button {
+    border-radius: 0;
+    padding-inline: 0;
     width: 100%;
   }
 }
