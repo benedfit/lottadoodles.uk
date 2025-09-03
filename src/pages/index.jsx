@@ -1,10 +1,4 @@
-import {
-  Button,
-  Card,
-  ContentContainer,
-  Grid,
-  Prose
-} from '@newhighsco/chipset'
+import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import Image from 'next/image'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { object } from 'prop-types'
@@ -13,6 +7,7 @@ import urlJoin from 'url-join'
 
 import Avatar from '~components/Avatar'
 import PageContainer from '~components/PageContainer'
+import Section from '~components/Section'
 import config from '~config'
 import avatarUrl from '~images/avatar.jpg'
 
@@ -31,12 +26,16 @@ const HomePage = ({ meta }) => (
       sameAs={Object.values(socialLinks)}
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
-    <ContentContainer size="desktop">
-      <Grid>
-        <Grid.Item sizes={['tablet-one-third', 'desktop-one-quarter']}>
+    <Section size="desktop">
+      <Grid valign="middle">
+        <Grid.Item
+          sizes={['tablet-landscape-one-third', 'desktop-one-quarter']}
+        >
           <Avatar />
         </Grid.Item>
-        <Grid.Item sizes={['tablet-two-thirds', 'desktop-three-quarters']}>
+        <Grid.Item
+          sizes={['tablet-landscape-two-thirds', 'desktop-three-quarters']}
+        >
           <Prose>
             <h1>
               <strong>Hello! I'm {shortName}</strong>, an animation and game
@@ -49,24 +48,24 @@ const HomePage = ({ meta }) => (
           </Prose>
         </Grid.Item>
       </Grid>
-    </ContentContainer>
-    <ContentContainer size="desktopMedium">
+    </Section>
+    <Section size="desktopMedium">
       <Grid flex>
-        <Grid.Item sizes="tablet-one-third">
+        <Grid.Item sizes="tablet-landscape-one-third">
           <Card
             href="/portfolio"
             heading={<Button>Portfolio</Button>}
             image={{ render: () => <SampleImage /> }}
           />
         </Grid.Item>
-        <Grid.Item sizes="tablet-one-third">
+        <Grid.Item sizes="tablet-landscape-one-third">
           <Card
             href="/college"
             heading={<Button variant="secondary">College work</Button>}
             image={{ render: () => <SampleImage /> }}
           />
         </Grid.Item>
-        <Grid.Item sizes="tablet-one-third">
+        <Grid.Item sizes="tablet-landscape-one-third">
           <Card
             href="/commisions"
             heading={<Button variant="tertiary">Commisions</Button>}
@@ -74,7 +73,7 @@ const HomePage = ({ meta }) => (
           />
         </Grid.Item>
       </Grid>
-    </ContentContainer>
+    </Section>
   </PageContainer>
 )
 

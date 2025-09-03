@@ -31,7 +31,11 @@ const links = {
 }
 
 const Footer = ({ size }) => (
-  <FooterContainer gutter size={size} theme={{ root: styles.root }}>
+  <FooterContainer
+    gutter
+    size={size}
+    theme={{ root: styles.root, content: styles.content }}
+  >
     <Navigation
       inline
       links={Object.values(links)}

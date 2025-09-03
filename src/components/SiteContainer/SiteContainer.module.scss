@@ -7,7 +7,7 @@
   padding-top: 0;
   position: relative;
 
-  @include mixins.mq(breakpoints.$tablet) {
+  @include mixins.mq(breakpoints.$tablet-landscape) {
     padding: functions.spacing(4);
     padding-top: 0;
   }

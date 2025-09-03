@@ -1,0 +1,27 @@
+@use '~styles/breakpoints.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  padding: 0;
+
+  & + & {
+    margin-top: functions.spacing(4);
+
+    @include mixins.mq(breakpoints.$tablet-landscape) {
+      margin-top: functions.spacing(8);
+    }
+  }
+}
+
+.content {
+  padding: 0;
+
+  > * + * {
+    margin-top: functions.spacing(4);
+
+    @include mixins.mq(breakpoints.$tablet-landscape) {
+      margin-top: functions.spacing(8);
+    }
+  }
+}
