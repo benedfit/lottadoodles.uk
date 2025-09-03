@@ -1,10 +1,10 @@
 import {
   FooterContainer,
-  Grid,
   Icon,
   Navigation,
   SmartLink
 } from '@newhighsco/chipset'
+import { string } from 'prop-types'
 import React from 'react'
 
 import config from '~config'
@@ -23,33 +23,33 @@ const links = {
   TikTok: { icon: TikTokIcon }
 }
 
-const Footer = () => (
-  <FooterContainer gutter theme={{ root: styles.root }}>
-    <Grid valign="middle">
-      <Grid.Item align="right">
-        <Navigation
-          inline
-          links={Object.values(links)}
-          renderLink={({ icon: IconSvg, prefix = 'Follow' }, index) => {
-            const key = Object.keys(socialLinks)[index]
+const Footer = ({ size }) => (
+  <FooterContainer gutter size={size} theme={{ root: styles.root }}>
+    <Navigation
+      inline
+      links={Object.values(links)}
+      renderLink={({ icon: IconSvg, prefix = 'Follow' }, index) => {
+        const key = Object.keys(socialLinks)[index]
 
-            return (
-              <SmartLink href={socialLinks[key]} target="_blank">
-                <Icon
-                  theme={{ root: styles.icon }}
-                  alt={[prefix, shortName, 'on', key].join(' ')}
-                >
-                  <IconSvg />
-                </Icon>
-              </SmartLink>
-            )
-          }}
-          theme={{ item: styles.link }}
-        />
-      </Grid.Item>
-    </Grid>
+        return (
+          <SmartLink href={socialLinks[key]} target="_blank">
+            <Icon
+              theme={{ root: styles.icon }}
+              alt={[prefix, shortName, 'on', key].join(' ')}
+            >
+              <IconSvg />
+            </Icon>
+          </SmartLink>
+        )
+      }}
+      theme={{ item: styles.link }}
+    />
   </FooterContainer>
 )
+
+Footer.propTypes = {
+  size: string
+}
 
 export default Footer
 export { Footer }

@@ -8,7 +8,7 @@
 @include grid.widths('', 2);
 
 @include mixins.mq(breakpoints.$tablet) {
-  // @include grid.gutter('', functions.spacing(4));
+  @include grid.gutter('', functions.spacing(4));
   @include grid.widths('tablet', 3);
 }
 

@@ -31,9 +31,8 @@ const HomePage = ({ meta }) => (
       sameAs={Object.values(socialLinks)}
     />
     {logo?.bitmap && <LogoJsonLd url={url} logo={urlJoin(url, logo.bitmap)} />}
-
     <ContentContainer size="desktop">
-      <Grid align="center">
+      <Grid>
         <Grid.Item sizes={['tablet-one-third', 'desktop-one-quarter']}>
           <Avatar />
         </Grid.Item>
@@ -57,21 +56,21 @@ const HomePage = ({ meta }) => (
           <Card
             href="/portfolio"
             heading={<Button>Portfolio</Button>}
-            image={{ render: () => <SampleImage />, ratio: '4:3' }}
+            image={{ render: () => <SampleImage /> }}
           />
         </Grid.Item>
         <Grid.Item sizes="tablet-one-third">
           <Card
             href="/college"
             heading={<Button variant="secondary">College work</Button>}
-            image={{ render: () => <SampleImage />, ratio: '4:3' }}
+            image={{ render: () => <SampleImage /> }}
           />
         </Grid.Item>
         <Grid.Item sizes="tablet-one-third">
           <Card
             href="/commisions"
             heading={<Button variant="tertiary">Commisions</Button>}
-            image={{ render: () => <SampleImage />, ratio: '4:3' }}
+            image={{ render: () => <SampleImage /> }}
           />
         </Grid.Item>
       </Grid>

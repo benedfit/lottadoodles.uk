@@ -3,9 +3,9 @@
 
 .root {
   background: colors.$white;
-
-  // border: 3px solid colors.$space;
   border-radius: functions.spacing(2);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .backdrop {

@@ -3,7 +3,7 @@ import {
   PageContainer as ThemedPageContainer
 } from '@newhighsco/chipset'
 import { Meta } from '@newhighsco/press-start'
-import { node, object } from 'prop-types'
+import { node, object, string } from 'prop-types'
 import React from 'react'
 
 import Footer from '~components/Footer'
@@ -12,20 +12,21 @@ import backdropUrl from '~images/backdrop.svg'
 
 import styles from './PageContainer.module.scss'
 
-const PageContainer = ({ meta, children }) => {
+const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
   return (
     <ThemedPageContainer
-      gutter
-      header={<Header />}
+      header={<Header size={size} />}
       footer={
         <>
-          <Footer />
+          <Footer size={size} />
           <Backdrop
             className={styles.backdrop}
             style={{ backgroundImage: `url(${backdropUrl})` }}
           />
         </>
       }
+      size={size}
+      gutter
     >
       <Meta
         {...meta}
@@ -47,6 +48,7 @@ const PageContainer = ({ meta, children }) => {
 }
 
 PageContainer.propTypes = {
+  size: string,
   meta: object,
   children: node
 }
