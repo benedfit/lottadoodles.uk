@@ -59,7 +59,7 @@
     "@newhighsco/eslint-config": "4.1.45",
     "@newhighsco/postcss-config": "3.5.348",
     "@newhighsco/prettier-config": "2.1.32",
-    "@newhighsco/release-config": "1.4.10",
+    "@newhighsco/release-config": "1.4.11",
     "@newhighsco/stylelint-config": "4.0.17",
     "@newhighsco/svgr-config": "1.0.0",
     "concurrently": "9.2.1",
@@ -80,8 +80,7 @@
   "eslintConfig": {
     "extends": [
       "@newhighsco/eslint-config"
-    ],
-    "root": true
+    ]
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
