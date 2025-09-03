@@ -1695,10 +1695,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.45":
-  version "4.1.45"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.45.tgz#4f19c2cd8d55748de9dbe8ed2fc9c8f444db80c1"
-  integrity sha512-Vp7RXbpNST0s82O2AXe0f8mzw9KvgA/9uRd129sMGA0R0LTMMM7QSrGtgA6plNH37nry0Vl7GUGKNjnWwurZzw==
+"@newhighsco/eslint-config@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.0.tgz#646b4e95454e440b3a2a4a293a35afbd8ba59085"
+  integrity sha512-Vuw+FzGI+YoHi2ApO2h097Hf0c1tHwF+H91LnjHdre8Q8KdNRL39DZQClFUyamDrlxnNKUTCM7bUIobSQ8QETQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1755,10 +1755,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.10":
-  version "1.4.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.10.tgz#86465fe7ff889ef97f12c8e1631da54480254bbf"
-  integrity sha512-osxybvEe0V91ong1cqI9k+xnp6U1MRORvUm9OlAoRQodo/3SIHZeXJc4Vpjz4YdLaOUGdkSOXWnn3GUdoqY2uQ==
+"@newhighsco/release-config@1.4.11":
+  version "1.4.11"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.11.tgz#690738b6f30d714a43cf4cf074debb193c59b56a"
+  integrity sha512-EgK7RVGG+bYgvKek9uhNfbc4D5pEk75ccExUeo4HFfn2fudtRM69YLiTO5/czlKGY9pYzaYweIM93upT27q4bg==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
@@ -8489,10 +8489,10 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@1.91.0:
-  version "1.91.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.91.0.tgz#7d4f7f624b35d43f78da1c339cab24426e28d7fa"
-  integrity sha512-aFOZHGf+ur+bp1bCHZ+u8otKGh77ZtmFyXDo4tlYvT7PWql41Kwd8wdkPqhhT+h2879IVblcHFglIMofsFd1EA==
+sass@1.92.0:
+  version "1.92.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.92.0.tgz#02d9ae21ce1763def2cd461449aac2eb56364796"
+  integrity sha512-KDNI0BxgIRDAfJgzNm5wuy+4yOCIZyrUbjSpiU/JItfih+KGXAVefKL53MTml054MmBA3DDKIBMSI/7XLxZJ3A==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"

@@ -1,3 +1,17 @@
+## [1.21.2](https://github.com/benedfit/lottadoodles.uk/compare/v1.21.1...v1.21.2) (2025-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.92.0 ([#148](https://github.com/benedfit/lottadoodles.uk/issues/148)) ([bf62eae](https://github.com/benedfit/lottadoodles.uk/commit/bf62eaed6d5218c4fccb8c89c96b4930a2e360fa))
+
+## [1.21.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.21.0...v1.21.1) (2025-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#144](https://github.com/benedfit/lottadoodles.uk/issues/144)) ([13d355f](https://github.com/benedfit/lottadoodles.uk/commit/13d355ff69e3b592c5d1f7282d8b1ec19e61ed0b))
+
 # [1.21.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.20.0...v1.21.0) (2025-08-29)
 
 
