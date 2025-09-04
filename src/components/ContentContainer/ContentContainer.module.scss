@@ -1,19 +1,9 @@
-@use '~styles/breakpoints.module';
 @use '~styles/functions';
-@use '~styles/mixins';
 
 .content {
-  padding-block: functions.spacing(2);
-
-  @include mixins.mq(breakpoints.$tablet) {
-    padding-block: functions.spacing(4);
-  }
+  padding-block: functions.spacing(4);
 }
 
 .gutter {
-  padding-inline: functions.spacing(2);
-
-  @include mixins.mq(breakpoints.$tablet) {
-    padding-inline: functions.spacing(4);
-  }
+  padding-inline: functions.spacing(4);
 }

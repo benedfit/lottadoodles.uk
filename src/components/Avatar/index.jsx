@@ -11,7 +11,7 @@ const Avatar = () => (
     src={avatarUrl}
     width={1000}
     height={1000}
-    sizes="9rem"
+    sizes="9em"
     priority
   />
 )

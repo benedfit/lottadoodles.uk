@@ -1,7 +1,19 @@
+@use '~styles/colors.module';
 @use '~styles/functions';
 
+.root {
+  background: colors.$white;
+  border-radius: functions.spacing(2);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  text-align: center;
+}
+
+.content {
+  padding-top: 0;
+}
+
 .icon {
-  fill: currentColor;
   width: functions.spacing(4);
 }
 
