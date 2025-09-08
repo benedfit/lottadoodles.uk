@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.0...v1.22.1) (2025-09-08)
+
+
+### Bug Fixes
+
+* **logo:** correct colors ([d64148f](https://github.com/benedfit/lottadoodles.uk/commit/d64148f09b703b3fe2af8d0e5e92d72ff93384a1))
+
 # [1.22.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.21.3...v1.22.0) (2025-09-08)
 
 
