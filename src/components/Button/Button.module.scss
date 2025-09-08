@@ -19,9 +19,14 @@
     outline-offset: 0.25em;
   }
 
-  .content {
-    color: colors.$black;
+  &[disabled] {
+    background: silver;
+    pointer-events: none;
   }
+}
+
+.content {
+  color: colors.$black;
 }
 
 .primary {
