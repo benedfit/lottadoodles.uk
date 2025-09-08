@@ -5,7 +5,7 @@ import React from 'react'
 import urlJoin from 'url-join'
 
 import Avatar from '~components/Avatar'
-import buttonStyles from '~components/Button/Button.module.scss'
+import cardVariants from '~components/Card/Card.module.scss'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import config from '~config'
@@ -88,7 +88,7 @@ const HomeLayout = ({ meta }) => (
                   ratio: '4:3'
                 }
               }
-              className={buttonStyles[variant]}
+              className={cardVariants[variant]}
             />
           </Grid.Item>
         ))}
