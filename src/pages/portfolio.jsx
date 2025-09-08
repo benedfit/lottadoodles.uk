@@ -11,7 +11,7 @@ const { url } = config
 const PortfolioPage = ({ meta }) => (
   <PageContainer meta={meta} variant="primary">
     <Prose align="center">
-      <h1>Comissions</h1>
+      <h1>Portfolio</h1>
       <p>Coming soon</p>
     </Prose>
   </PageContainer>

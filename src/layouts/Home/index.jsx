@@ -9,16 +9,16 @@ import cardVariants from '~components/Card/Card.module.scss'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import config from '~config'
-import src from '~images/avatar.jpg'
+import image from '~images/avatar.jpg'
 
-import styles from './HomeLayout.module.scss'
+import styles from './index.module.scss'
 
 const { fullName, shortName, logo, socialLinks, url } = config
 
 const sections = [
-  { heading: 'Portfolio', href: '/portfolio', variant: 'primary', src },
-  { heading: 'College work', href: '/college', variant: 'secondary', src },
-  { heading: 'Commisions', href: '/commisions', variant: 'tertiary', src }
+  { heading: 'Portfolio', href: '/portfolio', variant: 'primary', image },
+  { heading: 'College work', href: '/college', variant: 'secondary', image },
+  { heading: 'Commisions', href: '/commisions', variant: 'tertiary', image }
 ]
 
 const HomeLayout = ({ meta }) => (
@@ -66,9 +66,15 @@ const HomeLayout = ({ meta }) => (
               href={href}
               heading={<Button variant={variant}>{heading}</Button>}
               image={
-                src && {
+                image && {
                   render: () => (
-                    <Image src={src} alt="" width={1000} height={1000} />
+                    <Image
+                      src={image}
+                      alt=""
+                      width={1000}
+                      height={1000}
+                      priority
+                    />
                   ),
                   ratio: '4:3'
                 }
