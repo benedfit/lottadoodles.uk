@@ -9,31 +9,15 @@ import cardVariants from '~components/Card/Card.module.scss'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import config from '~config'
-import avatarUrl from '~images/avatar.jpg'
 
 import styles from './HomeLayout.module.scss'
 
 const { fullName, shortName, logo, socialLinks, url } = config
 
 const sections = [
-  {
-    heading: 'Portfolio',
-    href: '/portfolio',
-    variant: 'primary',
-    src: avatarUrl
-  },
-  {
-    heading: 'College work',
-    href: '/college',
-    variant: 'secondary',
-    src: avatarUrl
-  },
-  {
-    heading: 'Commisions',
-    href: '/commisions',
-    variant: 'tertiary',
-    src: avatarUrl
-  }
+  // { heading: 'Portfolio', href: '/portfolio', variant: 'primary' },
+  { heading: 'College work', href: '/college', variant: 'secondary' }
+  // { heading: 'Commisions', href: '/commisions', variant: 'tertiary' }
 ]
 
 const HomeLayout = ({ meta }) => (
