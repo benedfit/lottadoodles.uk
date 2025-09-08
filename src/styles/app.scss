@@ -5,7 +5,7 @@
 @use '~styles/font-faces';
 
 body {
-  background-color: colors.$sky;
+  background: var(--background, colors.$sky);
   color: colors.$space;
   font-size: 18px;
   line-height: 1.5;
