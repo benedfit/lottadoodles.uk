@@ -1,10 +1,29 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
 @use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  background: colors.$white;
+  border-radius: functions.spacing(2);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  text-align: center;
+  margin-bottom: functions.spacing(2);
+
+  @include mixins.mq(breakpoints.$tablet-landscape) {
+    margin-bottom: functions.spacing(4);
+  }
+}
+
+.content {
+  padding-top: 0;
+}
 
 .icon {
-  fill: currentColor;
   width: functions.spacing(4);
 }
 
 .link {
-  padding-left: 1em;
+  padding-inline: 0.5em;
 }

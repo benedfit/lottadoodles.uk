@@ -1,23 +1,17 @@
-@use '~styles/breakpoints.module';
 @use '~styles/colors.module';
 @use '~styles/functions';
-@use '~styles/mixins';
 
 .root {
   background: colors.$white;
-  border-radius: functions.spacing(3);
-
-  @include mixins.mq(breakpoints.$tablet) {
-    border-radius: functions.spacing(6);
-  }
+  border-radius: functions.spacing(2);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .backdrop {
-  background-size: 20em;
-  background-position: 50% 1em;
-  opacity: 0.8;
-
-  @include mixins.mq(breakpoints.$tablet) {
-    background-size: 35em;
-  }
+  background-size: inherit;
+  opacity: 0.125;
 }

@@ -1,26 +1,22 @@
-@use '~styles/breakpoints.module';
 @use '~styles/colors.module';
 @use '~styles/functions';
-@use '~styles/mixins';
 
 .root {
-  background: currentColor;
   color: colors.$sea;
+  text-align: center;
   border-radius: functions.spacing(2);
-  font-weight: bold;
-  padding: functions.spacing(2) functions.spacing(4);
-  text-decoration: none;
 
-  &:hover,
-  &:active,
-  &:focus,
-  a[href]:hover & {
+  &[role='link']:hover {
     outline: 2px dashed currentColor;
     outline-offset: 0.25em;
   }
+}
 
-  .content {
-    color: colors.$black;
+.heading {
+  button {
+    border-radius: unset;
+    outline: unset;
+    width: 100%;
   }
 }
 

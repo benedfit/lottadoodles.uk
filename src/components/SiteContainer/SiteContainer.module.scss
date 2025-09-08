@@ -6,7 +6,7 @@
   padding-inline: functions.spacing(2);
   position: relative;
 
-  @include mixins.mq(breakpoints.$tablet) {
+  @include mixins.mq(breakpoints.$tablet-landscape) {
     padding-inline: functions.spacing(4);
   }
 }
