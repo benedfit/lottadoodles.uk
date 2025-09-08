@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.21.3...v1.22.0) (2025-09-08)
+
+
+### Features
+
+* new layout ([#140](https://github.com/benedfit/lottadoodles.uk/issues/140)) ([cf5240c](https://github.com/benedfit/lottadoodles.uk/commit/cf5240ca170d3eacddd74009d0e5f772d7e12c07))
+
 ## [1.21.3](https://github.com/benedfit/lottadoodles.uk/compare/v1.21.2...v1.21.3) (2025-09-07)
 
 
