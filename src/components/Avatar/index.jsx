@@ -5,14 +5,6 @@ import avatarUrl from '~images/avatar.jpg'
 
 import styles from './Avatar.module.scss'
 
-const Avatar = () => (
-  <Image
-    className={styles.root}
-    src={avatarUrl}
-    width={1000}
-    height={1000}
-    priority
-  />
-)
+const Avatar = () => <Image className={styles.root} src={avatarUrl} priority />
 
 export default Avatar

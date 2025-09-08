@@ -1,4 +1,4 @@
-import { Button, Card, Grid, Image, Prose } from '@newhighsco/chipset'
+import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { object } from 'prop-types'
 import React from 'react'
@@ -56,7 +56,7 @@ const HomeLayout = ({ meta }) => (
     </Section>
     <Section size="desktopMedium">
       <Grid flex className={styles.spaced}>
-        {sections.map(({ heading, href, variant, src }) => (
+        {sections.map(({ heading, href, variant, image }) => (
           <Grid.Item
             key={href}
             sizes="tablet-landscape-one-third"
@@ -65,20 +65,11 @@ const HomeLayout = ({ meta }) => (
             <Card
               href={href}
               heading={<Button variant={variant}>{heading}</Button>}
-              image={
-                image && {
-                  render: () => (
-                    <Image
-                      src={image}
-                      alt=""
-                      width={1000}
-                      height={1000}
-                      priority
-                    />
-                  ),
-                  ratio: '4:3'
-                }
-              }
+              image={{
+                src: image,
+                priority: true,
+                ratio: '4:3'
+              }}
               className={cardVariants[variant]}
             />
           </Grid.Item>
