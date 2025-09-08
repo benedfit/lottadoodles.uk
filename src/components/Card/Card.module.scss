@@ -2,18 +2,20 @@
 @use '~styles/functions';
 
 .root {
+  color: colors.$sea;
   text-align: center;
   border-radius: functions.spacing(2);
 
-  // &[role='link']:hover {
-  //   TODO:
-  // }
+  &[role='link']:hover {
+    outline: 2px dashed currentColor;
+    outline-offset: 0.25em;
+  }
 }
 
 .heading {
   button {
     border-radius: unset;
-    padding-inline: unset;
+    outline: unset;
     width: 100%;
   }
 }

@@ -4,25 +4,34 @@
 @use '~styles/mixins';
 
 .root {
-  background: colors.$sundown;
-  color: colors.$black;
+  background: currentColor;
+  color: colors.$sea;
   border-radius: functions.spacing(2);
   font-weight: bold;
   padding: functions.spacing(2) functions.spacing(4);
   text-decoration: none;
 
-  // &:hover,
-  // &:active,
-  // &:focus,
-  // a[href]:hover & {
-  //   TODO:
-  // }
+  &:hover,
+  &:active,
+  &:focus,
+  a[href]:hover & {
+    outline: 2px dashed currentColor;
+    outline-offset: 0.25em;
+  }
+
+  .content {
+    color: colors.$black;
+  }
+}
+
+.primary {
+  color: colors.$sundown;
 }
 
 .secondary {
-  background: colors.$sunglow;
+  color: colors.$sunglow;
 }
 
 .tertiary {
-  background: colors.$land;
+  color: colors.$land;
 }

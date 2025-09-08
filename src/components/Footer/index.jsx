@@ -32,7 +32,6 @@ const links = {
 
 const Footer = ({ size }) => (
   <FooterContainer
-    gutter
     size={size}
     theme={{ root: styles.root, content: styles.content }}
   >

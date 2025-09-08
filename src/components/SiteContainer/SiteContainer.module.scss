@@ -3,12 +3,10 @@
 @use '~styles/mixins';
 
 .root {
-  padding: functions.spacing(2);
-  padding-top: 0;
+  padding-inline: functions.spacing(2);
   position: relative;
 
   @include mixins.mq(breakpoints.$tablet-landscape) {
-    padding: functions.spacing(4);
-    padding-top: 0;
+    padding-inline: functions.spacing(4);
   }
 }

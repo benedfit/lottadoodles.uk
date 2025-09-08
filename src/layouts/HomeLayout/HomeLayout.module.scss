@@ -1,0 +1,19 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.spaced {
+  justify-content: center;
+
+  @include mixins.mq($max: breakpoints.$tablet-landscape - 1) {
+    gap: functions.spacing(2);
+    text-align: center;
+  }
+}
+
+.section {
+  @include mixins.mq($max: breakpoints.$tablet-landscape - 1) {
+    max-width: 20em;
+  }
+}
