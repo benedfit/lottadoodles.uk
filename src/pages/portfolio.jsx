@@ -18,7 +18,7 @@ const PortfolioPage = ({ meta }) => (
 )
 
 export const getStaticProps = async () => ({
-  props: { meta: { canonical: urlJoin(url, '/portfolio'), noindex: true } }
+  props: { meta: { canonical: urlJoin(url, '/portfolio') } }
 })
 
 PortfolioPage.propTypes = {

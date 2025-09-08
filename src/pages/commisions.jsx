@@ -19,7 +19,7 @@ const CommisionsPage = ({ meta }) => (
 
 export const getStaticProps = async () => ({
   props: {
-    meta: { canonical: urlJoin(url, '/commisions'), noindex: true }
+    meta: { canonical: urlJoin(url, '/commisions') }
   }
 })
 
