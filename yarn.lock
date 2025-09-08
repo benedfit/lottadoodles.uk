@@ -1695,10 +1695,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.0.tgz#646b4e95454e440b3a2a4a293a35afbd8ba59085"
-  integrity sha512-Vuw+FzGI+YoHi2ApO2h097Hf0c1tHwF+H91LnjHdre8Q8KdNRL39DZQClFUyamDrlxnNKUTCM7bUIobSQ8QETQ==
+"@newhighsco/eslint-config@4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.1.tgz#82d8ccf8953cdfeb727e0c44f5dcd1f7ee7f1ad6"
+  integrity sha512-ozpvwHrBnapcJX0vIW7A327BuqnnZN9qIfxbvRdk56jI0PZIDkK7K/4YepJ/Arupu9EcE5qdgwPIHUUTvVDFIQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1719,7 +1719,7 @@
     eslint-plugin-react-hooks "5.2.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.6.7"
+    eslint-plugin-testing-library "7.6.8"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/next-plugin-svgr@3.0.157":
@@ -4481,10 +4481,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.6.7:
-  version "7.6.7"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.6.7.tgz#fe6c2bb2e372f72da2acc99ec9232a30a60fe7d6"
-  integrity sha512-wPzBzwnIXsqmWdz/wkXLoLs/ZBs4XsoE8Hi+Qv9DPd0Jr+4Jd8vEnMFRpXYqACzGQMYeBlryfitflrZO9L55jQ==
+eslint-plugin-testing-library@7.6.8:
+  version "7.6.8"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.6.8.tgz#679757295d753fb4a96649d1cd2147aa5dda5de6"
+  integrity sha512-8qvVtc9gzYsBWJd2bMJByAlOdr/GBBH2RZygvp70OTivsJkLkYRxSZFtHq1XQK8k+zNi8DcV7aiSx3avE0rf2w==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
@@ -8489,10 +8489,10 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@1.92.0:
-  version "1.92.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.92.0.tgz#02d9ae21ce1763def2cd461449aac2eb56364796"
-  integrity sha512-KDNI0BxgIRDAfJgzNm5wuy+4yOCIZyrUbjSpiU/JItfih+KGXAVefKL53MTml054MmBA3DDKIBMSI/7XLxZJ3A==
+sass@1.92.1:
+  version "1.92.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.92.1.tgz#07fb1fec5647d7b712685d1090628bf52456fe86"
+  integrity sha512-ffmsdbwqb3XeyR8jJR6KelIXARM9bFQe8A6Q3W4Klmwy5Ckd5gz7jgUNHo4UOqutU5Sk1DtKLbpDP0nLCg1xqQ==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
