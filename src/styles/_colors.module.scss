@@ -6,6 +6,9 @@ $sea: #2c76d8;
 $land: #85e79e;
 $sundown: #fca3a5;
 $sunglow: #ffc600;
+$faded-land: #e3f9e9;
+$faded-sundown: #ffeded;
+$faded-sunglow: #fff4cc;
 
 :export {
   black: $black;
@@ -16,4 +19,7 @@ $sunglow: #ffc600;
   land: $land;
   sundown: $sundown;
   sunglow: $sunglow;
+  fadedLand: $faded-land;
+  fadedSundown: $faded-sundown;
+  fadedSunglow: $faded-sunglow;
 }
