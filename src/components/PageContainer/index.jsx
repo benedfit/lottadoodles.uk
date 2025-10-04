@@ -3,16 +3,26 @@ import {
   PageContainer as ThemedPageContainer
 } from '@newhighsco/chipset'
 import { Meta } from '@newhighsco/press-start'
+import Head from 'next/head'
 import { node, object, string } from 'prop-types'
 import React from 'react'
 
 import Footer from '~components/Footer'
 import Header from '~components/Header'
 import backdropUrl from '~images/backdrop.svg'
+import colors from '~styles/_colors.module.scss'
 
 import styles from './PageContainer.module.scss'
 
-const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
+const VARIANTS = {
+  primary: colors.fadedSundown,
+  secondary: colors.fadedSunglow,
+  tertiary: colors.fadedLand
+}
+
+const PageContainer = ({ size = 'desktopLarge', variant, meta, children }) => {
+  const themeColor = VARIANTS[variant]
+
   return (
     <ThemedPageContainer
       header={<Header size={size} />}
@@ -28,6 +38,12 @@ const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
       size={size}
       gutter
     >
+      {themeColor && (
+        <Head>
+          <style>{`:root{--background:${themeColor}}`}</style>
+          <meta name="theme-color" content={themeColor} />
+        </Head>
+      )}
       <Meta
         {...meta}
         additionalLinkTags={[
@@ -49,6 +65,7 @@ const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
 
 PageContainer.propTypes = {
   size: string,
+  variant: string,
   meta: object,
   children: node
 }
