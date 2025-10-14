@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.11...v1.23.0) (2025-10-14)
+
+
+### Features
+
+* decorations ([#174](https://github.com/benedfit/lottadoodles.uk/issues/174)) ([95e7ade](https://github.com/benedfit/lottadoodles.uk/commit/95e7ade25592c02c901b7224bdbd2ca79fc5afb6))
+
 ## [1.22.11](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.10...v1.22.11) (2025-10-13)
 
 
