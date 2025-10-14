@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.0...v1.23.1) (2025-10-14)
+
+
+### Bug Fixes
+
+* **header:** adjust mobile padding ([f6c575f](https://github.com/benedfit/lottadoodles.uk/commit/f6c575f46336891996e186ceeee0ddeb6a429d4e))
+
 # [1.23.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.11...v1.23.0) (2025-10-14)
 
 
