@@ -64,11 +64,7 @@ const HomeLayout = ({ meta }) => (
             <Card
               href={href}
               heading={<Button variant={variant}>{heading}</Button>}
-              image={{
-                src,
-                priority: true,
-                ratio: '4:3'
-              }}
+              image={{ src, priority: true, ratio: '4:3' }}
               className={cardVariants[variant]}
             />
           </Grid.Item>
