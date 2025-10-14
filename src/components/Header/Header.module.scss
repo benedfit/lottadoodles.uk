@@ -1,3 +1,13 @@
+@use '~styles/breakpoints.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
 .root {
   text-align: center;
+}
+
+.content {
+  @include mixins.mq($max: breakpoints.$tablet-landscape - 1) {
+    padding-block: functions.spacing(2);
+  }
 }

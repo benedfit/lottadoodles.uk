@@ -7,7 +7,10 @@ import LogoLockup from '~components/LogoLockup'
 import styles from './Header.module.scss'
 
 const Header = ({ size }) => (
-  <HeaderContainer gutter size={size} theme={{ root: styles.root }}>
+  <HeaderContainer
+    size={size}
+    theme={{ root: styles.root, content: styles.content }}
+  >
     <SmartLink href="/">
       <LogoLockup />
     </SmartLink>
