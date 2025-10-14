@@ -1,10 +1,10 @@
-import classNames from 'classnames'
+import { classNames } from '@newhighsco/chipset'
 import { string } from 'prop-types'
 import React from 'react'
 
 import config from '~config'
 import { ReactComponent as LogoSvg } from '~images/logo-lockup.svg'
-import colors from '~styles/_colors.module.scss'
+import { cssVariables } from '~styles/colors'
 
 import styles from './LogoLockup.module.scss'
 
@@ -15,13 +15,7 @@ const LogoLockup = ({ className }) => (
   <LogoSvg
     className={classNames(styles.root, className)}
     title={name}
-    style={COLORS.reduce(
-      (styles, color) => ({
-        ...styles,
-        [`--colors-${color}`]: colors[color]
-      }),
-      {}
-    )}
+    style={cssVariables(COLORS)}
   />
 )
 

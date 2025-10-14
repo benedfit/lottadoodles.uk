@@ -7,6 +7,7 @@ import Head from 'next/head'
 import { node, object, string } from 'prop-types'
 import React from 'react'
 
+import Decoration from '~components/Decoration'
 import Footer from '~components/Footer'
 import Header from '~components/Header'
 import backdropUrl from '~images/backdrop.svg'
@@ -15,13 +16,13 @@ import colors from '~styles/_colors.module.scss'
 import styles from './PageContainer.module.scss'
 
 const VARIANTS = {
-  primary: colors.fadedSundown,
-  secondary: colors.fadedSunglow,
-  tertiary: colors.fadedLand
+  primary: { background: colors.fadedSundown, color: colors.sundown },
+  secondary: { background: colors.fadedSunglow, color: colors.sunglow },
+  tertiary: { background: colors.fadedLand, color: colors.land }
 }
 
 const PageContainer = ({ size = 'desktopLarge', variant, meta, children }) => {
-  const themeColor = VARIANTS[variant]
+  const theme = VARIANTS[variant]
 
   return (
     <ThemedPageContainer
@@ -38,10 +39,10 @@ const PageContainer = ({ size = 'desktopLarge', variant, meta, children }) => {
       size={size}
       gutter
     >
-      {themeColor && (
+      {theme && (
         <Head>
-          <style>{`:root{--background:${themeColor}}`}</style>
-          <meta name="theme-color" content={themeColor} />
+          <style>{`:root{--background:${theme.background};--color:${theme.color}}`}</style>
+          <meta name="theme-color" content={theme.background} />
         </Head>
       )}
       <Meta
@@ -58,6 +59,9 @@ const PageContainer = ({ size = 'desktopLarge', variant, meta, children }) => {
           )
         ]}
       />
+      <Decoration id="star" className={styles.star} />
+      <Decoration id="diamond" className={styles.diamond} />
+      <Decoration id="circle" className={styles.circle} />
       {children}
     </ThemedPageContainer>
   )

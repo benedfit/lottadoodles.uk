@@ -1,3 +1,66 @@
+# [1.23.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.11...v1.23.0) (2025-10-14)
+
+
+### Features
+
+* decorations ([#174](https://github.com/benedfit/lottadoodles.uk/issues/174)) ([95e7ade](https://github.com/benedfit/lottadoodles.uk/commit/95e7ade25592c02c901b7224bdbd2ca79fc5afb6))
+
+## [1.22.11](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.10...v1.22.11) (2025-10-13)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#172](https://github.com/benedfit/lottadoodles.uk/issues/172)) ([2113aab](https://github.com/benedfit/lottadoodles.uk/commit/2113aab12aaf23b46f9938c613927c8b8e8cf169))
+
+## [1.22.10](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.9...v1.22.10) (2025-10-12)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#171](https://github.com/benedfit/lottadoodles.uk/issues/171)) ([3d6c349](https://github.com/benedfit/lottadoodles.uk/commit/3d6c3498f848da92a5249fe9e97707fcdc7ea495))
+
+## [1.22.9](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.8...v1.22.9) (2025-10-03)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.0 ([#167](https://github.com/benedfit/lottadoodles.uk/issues/167)) ([7958c20](https://github.com/benedfit/lottadoodles.uk/commit/7958c207b857d4f87d14898e50044592485a7e9f))
+
+## [1.22.8](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.7...v1.22.8) (2025-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#165](https://github.com/benedfit/lottadoodles.uk/issues/165)) ([6242962](https://github.com/benedfit/lottadoodles.uk/commit/62429625687f1102d987b7aeb0e93424cbc5be2c))
+
+## [1.22.7](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.6...v1.22.7) (2025-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.93.2 ([#162](https://github.com/benedfit/lottadoodles.uk/issues/162)) ([b23a776](https://github.com/benedfit/lottadoodles.uk/commit/b23a7769275ef059bbc04f49431f0dd6773a49b5))
+
+## [1.22.6](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.5...v1.22.6) (2025-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.5.4 ([#161](https://github.com/benedfit/lottadoodles.uk/issues/161)) ([b6c9345](https://github.com/benedfit/lottadoodles.uk/commit/b6c934520b59892bc0a551eaa53eee070a6a56b3))
+
+## [1.22.5](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.4...v1.22.5) (2025-09-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.93.0 ([#159](https://github.com/benedfit/lottadoodles.uk/issues/159)) ([d171303](https://github.com/benedfit/lottadoodles.uk/commit/d171303e213a052fac878c1b1db556440832bd62))
+
+## [1.22.4](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.3...v1.22.4) (2025-09-22)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#158](https://github.com/benedfit/lottadoodles.uk/issues/158)) ([b8d08ca](https://github.com/benedfit/lottadoodles.uk/commit/b8d08cad8b1810429e9b5e4ac11fe8f0a5a32ccc))
+
 ## [1.22.3](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.2...v1.22.3) (2025-09-15)
 
 

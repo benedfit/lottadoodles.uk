@@ -1,0 +1,10 @@
+@use '~styles/breakpoints.module';
+@use '~styles/colors.module';
+@use '~styles/functions';
+@use '~styles/mixins';
+
+.root {
+  fill: currentColor;
+  pointer-events: none;
+  position: absolute;
+}
