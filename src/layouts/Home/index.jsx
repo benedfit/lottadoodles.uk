@@ -1,4 +1,4 @@
-import { Button, Card, Grid, Image, Prose } from '@newhighsco/chipset'
+import { Button, Card, Grid, Prose } from '@newhighsco/chipset'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
 import { object } from 'prop-types'
 import React from 'react'
@@ -10,7 +10,7 @@ import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import config from '~config'
 
-import styles from './HomeLayout.module.scss'
+import styles from './index.module.scss'
 
 const { fullName, shortName, logo, socialLinks, url } = config
 
@@ -64,14 +64,11 @@ const HomeLayout = ({ meta }) => (
             <Card
               href={href}
               heading={<Button variant={variant}>{heading}</Button>}
-              image={
-                src && {
-                  render: () => (
-                    <Image src={src} alt="" width={1000} height={1000} />
-                  ),
-                  ratio: '4:3'
-                }
-              }
+              image={{
+                src,
+                priority: true,
+                ratio: '4:3'
+              }}
               className={cardVariants[variant]}
             />
           </Grid.Item>

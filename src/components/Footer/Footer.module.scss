@@ -10,6 +10,7 @@
   border-top-right-radius: 0;
   text-align: center;
   margin-bottom: functions.spacing(2);
+  position: relative;
 
   @include mixins.mq(breakpoints.$tablet-landscape) {
     margin-bottom: functions.spacing(4);
@@ -26,4 +27,26 @@
 
 .link {
   padding-inline: 0.5em;
+
+  &:hover {
+    color: var(--color, colors.$sea);
+  }
+}
+
+.star {
+  color: colors.$sunglow;
+  bottom: functions.spacing(-1);
+  right: functions.spacing(-1);
+}
+
+.diamond {
+  color: colors.$land;
+  bottom: functions.spacing(8);
+  right: functions.spacing(-1.5);
+}
+
+.circle {
+  color: colors.$sundown;
+  bottom: functions.spacing(-1);
+  right: functions.spacing(8);
 }

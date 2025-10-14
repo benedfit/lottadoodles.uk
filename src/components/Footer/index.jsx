@@ -7,6 +7,7 @@ import {
 import { string } from 'prop-types'
 import React from 'react'
 
+import Decoration from '~components/Decoration'
 import config from '~config'
 import { ReactComponent as BlueskyIcon } from '~images/icons/bluesky.svg'
 import { ReactComponent as EmailIcon } from '~images/icons/email.svg'
@@ -57,6 +58,9 @@ const Footer = ({ size }) => (
       }}
       theme={{ item: styles.link }}
     />
+    <Decoration id="star-end" className={styles.star} />
+    <Decoration id="diamond-end" className={styles.diamond} />
+    <Decoration id="circle" className={styles.circle} />
   </FooterContainer>
 )
 
