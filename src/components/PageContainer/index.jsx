@@ -3,16 +3,27 @@ import {
   PageContainer as ThemedPageContainer
 } from '@newhighsco/chipset'
 import { Meta } from '@newhighsco/press-start'
+import Head from 'next/head'
 import { node, object, string } from 'prop-types'
 import React from 'react'
 
+import Decoration from '~components/Decoration'
 import Footer from '~components/Footer'
 import Header from '~components/Header'
 import backdropUrl from '~images/backdrop.svg'
+import colors from '~styles/_colors.module.scss'
 
 import styles from './PageContainer.module.scss'
 
-const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
+const VARIANTS = {
+  primary: { background: colors.fadedSundown, color: colors.sundown },
+  secondary: { background: colors.fadedSunglow, color: colors.sunglow },
+  tertiary: { background: colors.fadedLand, color: colors.land }
+}
+
+const PageContainer = ({ size = 'desktopLarge', variant, meta, children }) => {
+  const theme = VARIANTS[variant]
+
   return (
     <ThemedPageContainer
       header={<Header size={size} />}
@@ -28,6 +39,12 @@ const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
       size={size}
       gutter
     >
+      {theme && (
+        <Head>
+          <style>{`:root{--background:${theme.background};--color:${theme.color}}`}</style>
+          <meta name="theme-color" content={theme.background} />
+        </Head>
+      )}
       <Meta
         {...meta}
         additionalLinkTags={[
@@ -42,6 +59,9 @@ const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
           )
         ]}
       />
+      <Decoration id="star" className={styles.star} />
+      <Decoration id="diamond" className={styles.diamond} />
+      <Decoration id="circle" className={styles.circle} />
       {children}
     </ThemedPageContainer>
   )
@@ -49,6 +69,7 @@ const PageContainer = ({ size = 'desktopLarge', meta, children }) => {
 
 PageContainer.propTypes = {
   size: string,
+  variant: string,
   meta: object,
   children: node
 }

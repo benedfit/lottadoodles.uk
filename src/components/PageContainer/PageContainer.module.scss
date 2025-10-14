@@ -9,9 +9,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .backdrop {
   background-size: inherit;
   opacity: 0.125;
+}
+
+.star {
+  color: colors.$land;
+  left: functions.spacing(-1);
+  top: functions.spacing(-1);
+}
+
+.diamond {
+  color: colors.$sunglow;
+  left: functions.spacing(2);
+  top: functions.spacing(8);
+}
+
+.circle {
+  color: colors.$sea;
+  left: functions.spacing(8);
+  top: functions.spacing(-1);
 }
