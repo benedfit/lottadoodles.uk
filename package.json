@@ -32,7 +32,7 @@
     "serve": "next start",
     "test": "yarn lint",
     "lint": "concurrently yarn:lint:*",
-    "lint:js": "eslint --cache --ignore-path .gitignore .",
+    "lint:js": "eslint --cache .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
     "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix",
@@ -56,14 +56,14 @@
     "@newhighsco/browserslist-config": "2.0.0",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.2.9",
+    "@newhighsco/eslint-config": "5.1.1",
     "@newhighsco/postcss-config": "3.5.358",
-    "@newhighsco/prettier-config": "2.1.32",
+    "@newhighsco/prettier-config": "2.3.0",
     "@newhighsco/release-config": "1.4.16",
     "@newhighsco/stylelint-config": "4.0.18",
     "@newhighsco/svgr-config": "1.0.0",
     "concurrently": "9.2.1",
-    "eslint": "8.57.1",
+    "eslint": "9.38.0",
     "husky": "9.1.7",
     "prettier": "3.6.2",
     "semantic-release": "25.0.1",
@@ -75,11 +75,6 @@
   "commitlint": {
     "extends": [
       "@newhighsco"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "@newhighsco/eslint-config"
     ]
   },
   "prettier": "@newhighsco/prettier-config",

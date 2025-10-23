@@ -64,9 +64,7 @@ const Footer = ({ size }) => (
   </FooterContainer>
 )
 
-Footer.propTypes = {
-  size: string
-}
+Footer.propTypes = { size: string }
 
 export default Footer
 export { Footer }

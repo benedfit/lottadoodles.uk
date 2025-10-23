@@ -74,8 +74,6 @@ const HomeLayout = ({ meta }) => (
   </PageContainer>
 )
 
-HomeLayout.propTypes = {
-  meta: object
-}
+HomeLayout.propTypes = { meta: object }
 
 export default HomeLayout

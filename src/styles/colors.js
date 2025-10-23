@@ -4,10 +4,7 @@ export const cssVariables = (keys = []) => {
   if (typeof keys === 'string') keys = [keys]
 
   return keys?.reduce(
-    (styles, color) => ({
-      ...styles,
-      [`--colors-${color}`]: colors[color]
-    }),
+    (styles, color) => ({ ...styles, [`--colors-${color}`]: colors[color] }),
     {}
   )
 }
