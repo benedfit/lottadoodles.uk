@@ -12,10 +12,7 @@ const config = {
   title: 'lottadoodles ☆ animation and game design student',
   description:
     'animation and game design student ☆ fantasy illustration, portrait art and character design',
-  logo: {
-    bitmap: logoBitmap.src,
-    vector: logoVector
-  },
+  logo: { bitmap: logoBitmap.src, vector: logoVector },
   openGraphImage: openGraphImage.src,
   themeColor: colors.sky,
   socialLinks: {

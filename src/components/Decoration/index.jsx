@@ -30,9 +30,6 @@ const Decoration = ({ id = 'star', className }) => {
   )
 }
 
-Decoration.propTypes = {
-  id: oneOf(Object.keys(DIMENSIONS)),
-  className: string
-}
+Decoration.propTypes = { id: oneOf(Object.keys(DIMENSIONS)), className: string }
 
 export default Decoration

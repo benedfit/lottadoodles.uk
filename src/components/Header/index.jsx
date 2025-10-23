@@ -17,9 +17,7 @@ const Header = ({ size }) => (
   </HeaderContainer>
 )
 
-Header.propTypes = {
-  size: string
-}
+Header.propTypes = { size: string }
 
 export default Header
 export { Header }
