@@ -7,7 +7,11 @@
       "~data/*": ["src/data/*"],
       "~images/*": ["src/images/*"],
       "~layouts/*": ["src/layouts/*"],
-      "~styles/*": ["src/styles/*"],
+      "~styles/*": [
+        "src/styles/_*.scss",
+        "src/styles/*.scss",
+        "src/styles/*.js"
+      ],
       "~theme": ["src/theme"]
     }
   }

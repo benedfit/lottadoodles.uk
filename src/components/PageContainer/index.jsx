@@ -11,7 +11,7 @@ import Decoration from '~components/Decoration'
 import Footer from '~components/Footer'
 import Header from '~components/Header'
 import backdropUrl from '~images/backdrop.svg'
-import colors from '~styles/_colors.module.scss'
+import colors from '~styles/_colors.module'
 
 import styles from './PageContainer.module.scss'
 
