@@ -9,15 +9,16 @@ import cardVariants from '~components/Card/Card.module.scss'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
 import config from '~config'
+import image from '~images/avatar.jpg'
 
 import styles from './index.module.scss'
 
 const { fullName, shortName, logo, socialLinks, url } = config
 
 const sections = [
-  // { heading: 'Portfolio', href: '/portfolio', variant: 'primary' },
-  { heading: 'College work', href: '/college', variant: 'secondary' }
-  // { heading: 'Commisions', href: '/commisions', variant: 'tertiary' }
+  { heading: 'Portfolio', href: '/portfolio', variant: 'primary', image },
+  { heading: 'College work', href: '/college', variant: 'secondary', image },
+  { heading: 'Commisions', href: '/commisions', variant: 'tertiary', image }
 ]
 
 const HomeLayout = ({ meta }) => (
@@ -55,7 +56,7 @@ const HomeLayout = ({ meta }) => (
     </Section>
     <Section size="desktopMedium">
       <Grid flex className={styles.spaced}>
-        {sections.map(({ heading, href, variant, src }) => (
+        {sections.map(({ heading, href, variant, image }) => (
           <Grid.Item
             key={href}
             sizes="tablet-landscape-one-third"
@@ -64,7 +65,7 @@ const HomeLayout = ({ meta }) => (
             <Card
               href={href}
               heading={<Button variant={variant}>{heading}</Button>}
-              image={{ src, priority: true, ratio: '4:3' }}
+              image={{ src: image, priority: true, ratio: '4:3' }}
               className={cardVariants[variant]}
             />
           </Grid.Item>
