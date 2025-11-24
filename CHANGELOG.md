@@ -1,3 +1,10 @@
+## [1.23.21](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.20...v1.23.21) (2025-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.18 ([#226](https://github.com/benedfit/lottadoodles.uk/issues/226)) ([3c615a1](https://github.com/benedfit/lottadoodles.uk/commit/3c615a12e371a4d103090b123696d883dcea63f0))
+
 ## [1.23.20](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.19...v1.23.20) (2025-11-24)
 
 
