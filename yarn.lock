@@ -1446,13 +1446,6 @@
   resolved "https://registry.yarnpkg.com/@csstools/utilities/-/utilities-2.0.0.tgz#f7ff0fee38c9ffb5646d47b6906e0bc8868bde60"
   integrity sha512-5VdOr0Z71u+Yp3ozOx8T11N703wIFGVRgOWbOZMKgglPJsWA54MRIoMNVMa7shUToIhx5J8vX4sOZgD2XiihiQ==
 
-"@dr.pogodin/react-themes@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.0.tgz#6541926ed0bff155cefa85b2cf4d4737b9d8ef95"
-  integrity sha512-uHTS7eS64jV0gT085KVYGn/UOWe+promTTQDtUeQWu4wezTzBUPU60JEEZRXssxWwuTOusMD9KdyZH/E5aYFyQ==
-  dependencies:
-    "@babel/runtime" "^7.28.4"
-
 "@dr.pogodin/react-themes@1.10.1":
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.1.tgz#223c38b24f1cd6f6e0e31bad44621e719b6c4b72"
@@ -1839,15 +1832,6 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
-"@newhighsco/chipset@6.25.4":
-  version "6.25.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.25.4.tgz#16122db799e33a03a884e11979e870516e8ae255"
-  integrity sha512-DoTwoKPfUUylUCe7/UhaXArqnhQ9t3xc3KF3YVDOBdsUAgjMZvwpcycZhiSPZlmfhdLiSV9tDXk+cJSlUOqwWA==
-  dependencies:
-    "@dr.pogodin/react-themes" "1.10.0"
-    classnames "2.5.1"
-    react-device-detect "2.2.3"
-
 "@newhighsco/chipset@6.25.5":
   version "6.25.5"
   resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.25.5.tgz#48696e59b247ad21d7db799a5f77f790cc801714"
@@ -1916,12 +1900,12 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.4.0"
 
-"@newhighsco/press-start@2.6.19":
-  version "2.6.19"
-  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.6.19.tgz#39420110073e888ced59d9fe86302fa95f36daba"
-  integrity sha512-b0nTBF29p99Wrnuvp6Gwn42KPol+FH7Im9RvhbR5mmhd+nytFaGKFNqJPEUPCQOD5+42dW6la0yELYAbW97Twg==
+"@newhighsco/press-start@2.6.20":
+  version "2.6.20"
+  resolved "https://registry.yarnpkg.com/@newhighsco/press-start/-/press-start-2.6.20.tgz#428cb806118181f77d7f76fbae31beb731680591"
+  integrity sha512-fDkkAqztWnHqFg7lscVHkjrAdlU7w3cAQLW/bqSX718cm6LXcklF9WdtQdpUrWkkzZpnkryXO82WeaXyAUfEPw==
   dependencies:
-    "@newhighsco/chipset" "6.25.4"
+    "@newhighsco/chipset" "6.25.5"
     next-seo "6.8.0"
 
 "@newhighsco/prettier-config@2.3.2":
