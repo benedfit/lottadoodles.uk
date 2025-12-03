@@ -1,3 +1,10 @@
+## [1.23.28](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.27...v1.23.28) (2025-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.1 ([#245](https://github.com/benedfit/lottadoodles.uk/issues/245)) ([f9079fb](https://github.com/benedfit/lottadoodles.uk/commit/f9079fb0f94b3fd0c686f7a533cbf9baba7ca583))
+
 ## [1.23.27](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.26...v1.23.27) (2025-12-03)
 
 
