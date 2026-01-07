@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.43...v1.24.0) (2026-01-07)
+
+
+### Features
+
+* **social-link:** remove Bluesky and reorder ([#273](https://github.com/benedfit/lottadoodles.uk/issues/273)) ([10167e8](https://github.com/benedfit/lottadoodles.uk/commit/10167e8478c9f1fabe453c5905290485c74930f9))
+
 ## [1.23.43](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.42...v1.23.43) (2026-01-06)
 
 
