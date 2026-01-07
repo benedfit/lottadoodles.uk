@@ -17,8 +17,8 @@ const config = {
   themeColor: colors.sky,
   socialLinks: {
     Instagram: 'https://www.instagram.com/lotta.doodles',
-    YouTube: 'https://www.youtube.com/@lottadoodles',
-    TikTok: 'https://www.tiktok.com/@lotta.doodles'
+    TikTok: 'https://www.tiktok.com/@lotta.doodles',
+    YouTube: 'https://www.youtube.com/@lottadoodles'
   }
 }
 
