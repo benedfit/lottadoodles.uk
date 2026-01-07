@@ -9,7 +9,6 @@ import React from 'react'
 
 import Decoration from '~components/Decoration'
 import config from '~config'
-import { ReactComponent as BlueskyIcon } from '~images/icons/bluesky.svg'
 import { ReactComponent as EmailIcon } from '~images/icons/email.svg'
 import { ReactComponent as InstagramIcon } from '~images/icons/instagram.svg'
 import { ReactComponent as TikTokIcon } from '~images/icons/tiktok.svg'
@@ -25,10 +24,9 @@ const links = {
     verb: 'Contact',
     preposition: 'via'
   },
+  TikTok: { icon: TikTokIcon },
   Instagram: { icon: InstagramIcon },
-  Bluesky: { icon: BlueskyIcon },
-  YouTube: { icon: YouTubeIcon, verb: 'Subscribe to' },
-  TikTok: { icon: TikTokIcon }
+  YouTube: { icon: YouTubeIcon, verb: 'Subscribe to' }
 }
 
 const Footer = ({ size }) => (

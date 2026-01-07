@@ -17,7 +17,6 @@ const config = {
   themeColor: colors.sky,
   socialLinks: {
     Instagram: 'https://www.instagram.com/lotta.doodles',
-    Bluesky: 'https://bsky.app/profile/lottadoodles.uk',
     YouTube: 'https://www.youtube.com/@lottadoodles',
     TikTok: 'https://www.tiktok.com/@lotta.doodles'
   }
