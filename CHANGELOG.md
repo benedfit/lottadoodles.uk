@@ -1,3 +1,10 @@
+## [1.24.10](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.9...v1.24.10) (2026-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v6.27.1 ([#294](https://github.com/benedfit/lottadoodles.uk/issues/294)) ([56b024a](https://github.com/benedfit/lottadoodles.uk/commit/56b024a4884d39428dcb9ef395fb1252fa137b69))
+
 ## [1.24.9](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.8...v1.24.9) (2026-01-20)
 
 
