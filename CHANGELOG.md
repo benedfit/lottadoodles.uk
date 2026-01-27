@@ -1,3 +1,10 @@
+## [1.24.16](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.15...v1.24.16) (2026-01-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.161 ([#304](https://github.com/benedfit/lottadoodles.uk/issues/304)) ([1116598](https://github.com/benedfit/lottadoodles.uk/commit/111659869038cf6dd12f1fa0b7304b91999cada2))
+
 ## [1.24.15](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.14...v1.24.15) (2026-01-26)
 
 
