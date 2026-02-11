@@ -13,6 +13,7 @@
   "bugs": {
     "url": "https://github.com/benedfit/lottadoodles.uk/issues"
   },
+  "packageManager": "yarn@4.12.0",
   "files": [
     "public",
     "src",
@@ -31,10 +32,10 @@
     "postbuild": "next-sitemap",
     "serve": "next start",
     "test": "yarn lint",
-    "lint": "concurrently yarn:lint:*",
+    "lint": "concurrently 'yarn:lint:*'",
     "lint:js": "eslint --cache .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
-    "format": "concurrently yarn:format:*",
+    "format": "concurrently 'yarn:format:*'",
     "format:js": "yarn lint:js --fix",
     "format:css": "yarn lint:css --fix"
   },
@@ -56,7 +57,7 @@
     "@newhighsco/browserslist-config": "2.0.0",
     "@newhighsco/commitlint-config": "1.1.48",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "7.0.2",
+    "@newhighsco/eslint-config": "7.0.3",
     "@newhighsco/postcss-config": "4.0.19",
     "@newhighsco/prettier-config": "2.3.3",
     "@newhighsco/release-config": "1.4.24",
