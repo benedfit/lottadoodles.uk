@@ -2625,22 +2625,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.8":
-  version: 7.0.8
-  resolution: "@newhighsco/eslint-config@npm:7.0.8"
+"@newhighsco/eslint-config@npm:7.0.10":
+  version: 7.0.10
+  resolution: "@newhighsco/eslint-config@npm:7.0.10"
   dependencies:
     "@eslint/compat": "npm:2.0.2"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:1.0.1"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-cypress: "npm:5.3.0"
+    eslint-plugin-cypress: "npm:6.0.0"
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.5"
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
-    eslint-plugin-storybook: "npm:10.2.9"
+    eslint-plugin-storybook: "npm:10.2.10"
     eslint-plugin-testing-library: "npm:7.16.0"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.56.0"
@@ -2654,7 +2654,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/0e7d14e8e663797bfcba16c00c259809db827a7f50634480ef91b94e2242dade91a2f50c5de3f8ff2adedafb42d8ee7ffd5cd3c6d0a434a10b753bd13e37780c
+  checksum: 10c0/a852d30c916c5c4d3ea9ce85ab3fbacf37d78cd0362fe045a81f4500706ef67826fd3b047f9265a9ccb460fc10e5ef014a8893d7c887d97e7d57b6d667ecdc93
   languageName: node
   linkType: hard
 
@@ -5595,14 +5595,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:5.3.0":
-  version: 5.3.0
-  resolution: "eslint-plugin-cypress@npm:5.3.0"
+"eslint-plugin-cypress@npm:6.0.0":
+  version: 6.0.0
+  resolution: "eslint-plugin-cypress@npm:6.0.0"
   dependencies:
-    globals: "npm:^16.5.0"
+    globals: "npm:^17.3.0"
   peerDependencies:
     eslint: ">=9"
-  checksum: 10c0/3991f4d5e630f4dd1fa0df197c9af3ae19c72135a76de8ce4855ef29eed216f678060bbe200f50acb69e87d5b31f583706bada59def3fa1d1a522050391f4687
+  checksum: 10c0/8ce1ef14a4fec4634a6c647897981c122f3ad11a9dba0402abbc3845f16b3f35b2cf473c9b05431ea3fac3a32d62f2efff9271d869bb59f377090a2a59154f06
   languageName: node
   linkType: hard
 
@@ -5732,15 +5732,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.2.9":
-  version: 10.2.9
-  resolution: "eslint-plugin-storybook@npm:10.2.9"
+"eslint-plugin-storybook@npm:10.2.10":
+  version: 10.2.10
+  resolution: "eslint-plugin-storybook@npm:10.2.10"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.2.9
-  checksum: 10c0/1ffc160ff8fec23f8cab3cec793cbb47ddc3465d5b03a5d935d8687ce86972a7367f952178e3dabb2528f02c8b8e5a3a382e73fc6ac734938c4fd6b8c3d1b2d6
+    storybook: ^10.2.10
+  checksum: 10c0/996e552e15324d08f0cf22ffd906dd1db7bba501c4f93b07ab6fd6d820e2303d5f3c6914c335c0a3179a7a17f1df82e5079b4a1e27394d7ad3f1673171de0194
   languageName: node
   linkType: hard
 
@@ -6424,10 +6424,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^16.5.0":
-  version: 16.5.0
-  resolution: "globals@npm:16.5.0"
-  checksum: 10c0/615241dae7851c8012f5aa0223005b1ed6607713d6813de0741768bd4ddc39353117648f1a7086b4b0fa45eae733f1c0a0fe369aa4e543bb63f8de8990178ea9
+"globals@npm:^17.3.0":
+  version: 17.3.0
+  resolution: "globals@npm:17.3.0"
+  checksum: 10c0/7f21443ecaa60c6e9ff56d9fb6f10a9b5f9514e7f22e5392f715472bb220ce31c865ebf414a32695150e733fb3e1013e6322dbce70fddd1e066f372b8d55a4b8
   languageName: node
   linkType: hard
 
@@ -7783,7 +7783,7 @@ __metadata:
     "@newhighsco/chipset": "npm:6.27.3"
     "@newhighsco/commitlint-config": "npm:1.1.48"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.8"
+    "@newhighsco/eslint-config": "npm:7.0.10"
     "@newhighsco/next-plugin-svgr": "npm:3.0.162"
     "@newhighsco/postcss-config": "npm:4.0.20"
     "@newhighsco/press-start": "npm:2.6.33"
