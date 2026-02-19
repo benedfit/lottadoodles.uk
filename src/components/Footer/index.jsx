@@ -9,10 +9,6 @@ import React from 'react'
 
 import Decoration from '~components/Decoration'
 import config from '~config'
-import { ReactComponent as EmailIcon } from '~images/icons/email.svg'
-import { ReactComponent as InstagramIcon } from '~images/icons/instagram.svg'
-import { ReactComponent as TikTokIcon } from '~images/icons/tiktok.svg'
-import { ReactComponent as YouTubeIcon } from '~images/icons/youtube.svg'
 
 import styles from './Footer.module.scss'
 
@@ -20,13 +16,13 @@ const { shortName, socialLinks } = config
 const links = {
   email: {
     href: 'mailto:charlotte@lottadoodles.uk',
-    icon: EmailIcon,
+    icon: 'material-symbols:mail',
     verb: 'Contact',
     preposition: 'via'
   },
-  TikTok: { icon: TikTokIcon },
-  Instagram: { icon: InstagramIcon },
-  YouTube: { icon: YouTubeIcon, verb: 'Subscribe to' }
+  TikTok: { icon: 'simple-icons:tiktok' },
+  Instagram: { icon: 'simple-icons:instagram' },
+  YouTube: { icon: 'simple-icons:youtube', verb: 'Subscribe to' }
 }
 
 const Footer = ({ size }) => (
@@ -38,7 +34,7 @@ const Footer = ({ size }) => (
       inline
       links={Object.values(links)}
       renderLink={(
-        { href, icon: IconSvg, verb = 'Follow', preposition = 'on' },
+        { href, icon, verb = 'Follow', preposition = 'on' },
         index
       ) => {
         const key = Object.keys(links).at(index)
@@ -46,11 +42,10 @@ const Footer = ({ size }) => (
         return (
           <SmartLink href={href ?? socialLinks[key]} target="_blank">
             <Icon
+              name={icon}
               theme={{ root: styles.icon }}
               alt={[verb, shortName, preposition, key].join(' ')}
-            >
-              <IconSvg />
-            </Icon>
+            />
           </SmartLink>
         )
       }}
