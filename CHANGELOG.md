@@ -1,3 +1,10 @@
+## [1.24.27](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.26...v1.24.27) (2026-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#400](https://github.com/benedfit/lottadoodles.uk/issues/400)) ([d6e3416](https://github.com/benedfit/lottadoodles.uk/commit/d6e34161eebc05b6d22abcc5c410372cb16a77cb))
+
 ## [1.24.26](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.25...v1.24.26) (2026-03-17)
 
 
