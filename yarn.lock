@@ -2681,9 +2681,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.25":
-  version: 7.0.25
-  resolution: "@newhighsco/eslint-config@npm:7.0.25"
+"@newhighsco/eslint-config@npm:7.0.26":
+  version: 7.0.26
+  resolution: "@newhighsco/eslint-config@npm:7.0.26"
   dependencies:
     "@eslint/compat": "npm:2.0.3"
     "@eslint/js": "npm:10.0.1"
@@ -2696,7 +2696,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.0.1"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
-    eslint-plugin-storybook: "npm:10.2.19"
+    eslint-plugin-storybook: "npm:10.3.0"
     eslint-plugin-testing-library: "npm:7.16.0"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.57.1"
@@ -2710,7 +2710,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/4bb36dd0f24bedddb615f9fe5c14beba0e2e0b6564f8007eccba6749671203cef53470907024241f849c27d226b13de4325b2feaa083e229fe764bf6fde42c9e
+  checksum: 10c0/452b3eabf966600442a8b14adc55d7bc373c96f345d6f84c08806273cf74f816560ea7592f9b2dbdedab30b8b94c8ad4e922ef8b1105fb673d5decf5d2938fb7
   languageName: node
   linkType: hard
 
@@ -2742,15 +2742,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/press-start@npm:2.6.35":
-  version: 2.6.35
-  resolution: "@newhighsco/press-start@npm:2.6.35"
+"@newhighsco/press-start@npm:2.6.36":
+  version: 2.6.36
+  resolution: "@newhighsco/press-start@npm:2.6.36"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     next-seo: "npm:6.8.0"
   peerDependencies:
-    next: 16.1.7
-  checksum: 10c0/48ea2bd805812e339ee104ade7b149e4bfc8d30ccf5ae9cf56d687671a97af23f7f943f0d093ce23d7a6738caab1bf2fd8f87700e1160f00959a3c84128f658a
+    next: 16.2.0
+  checksum: 10c0/7ddd35f39d7649837031d7764b8202062213c7142ed1184469581ea7da7c208d989941b625aeeb928d23780d7f5792bb11447c0d6cd490a838b31de52e4c8819
   languageName: node
   linkType: hard
 
@@ -5757,15 +5757,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.2.19":
-  version: 10.2.19
-  resolution: "eslint-plugin-storybook@npm:10.2.19"
+"eslint-plugin-storybook@npm:10.3.0":
+  version: 10.3.0
+  resolution: "eslint-plugin-storybook@npm:10.3.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.2.19
-  checksum: 10c0/6b0c6c26c293d7af92303b7a7328a400d9e9a849f77d8fcb9865769603cd6c459c11568b847b1254535a06bd0f4ec0928785e1971f2866645c1f5500a63b76a5
+    storybook: ^10.3.0
+  checksum: 10c0/1df055b7246c20626267d506d98c98791743c1678effdb84b751d51bffb25908c3f1e8a8106671cd93314779c130af67f4dd33bb6788ba092f7d8efdc2ddb4c2
   languageName: node
   linkType: hard
 
@@ -7804,10 +7804,10 @@ __metadata:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.25"
+    "@newhighsco/eslint-config": "npm:7.0.26"
     "@newhighsco/next-plugin-svgr": "npm:3.0.163"
     "@newhighsco/postcss-config": "npm:4.0.32"
-    "@newhighsco/press-start": "npm:2.6.35"
+    "@newhighsco/press-start": "npm:2.6.36"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/stylelint-config": "npm:4.0.31"
