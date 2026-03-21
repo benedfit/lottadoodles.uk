@@ -2742,15 +2742,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/press-start@npm:2.6.36":
-  version: 2.6.36
-  resolution: "@newhighsco/press-start@npm:2.6.36"
+"@newhighsco/press-start@npm:2.6.37":
+  version: 2.6.37
+  resolution: "@newhighsco/press-start@npm:2.6.37"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     next-seo: "npm:6.8.0"
   peerDependencies:
-    next: 16.2.0
-  checksum: 10c0/7ddd35f39d7649837031d7764b8202062213c7142ed1184469581ea7da7c208d989941b625aeeb928d23780d7f5792bb11447c0d6cd490a838b31de52e4c8819
+    next: 16.2.1
+  checksum: 10c0/6aaeb35d3577f43b4ee01f5af3502bfc09c7bfa4643f94ccbde7013c1262f534ee3c4f450f07c1ec54e2d6fc59bfe4c4c11247199b4af1c86366f25667d5a4c9
   languageName: node
   linkType: hard
 
@@ -7807,7 +7807,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.0.30"
     "@newhighsco/next-plugin-svgr": "npm:3.0.164"
     "@newhighsco/postcss-config": "npm:4.0.32"
-    "@newhighsco/press-start": "npm:2.6.36"
+    "@newhighsco/press-start": "npm:2.6.37"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/stylelint-config": "npm:4.0.32"
