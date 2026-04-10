@@ -18,6 +18,11 @@
     outline: 2px dashed currentColor;
     outline-offset: 0.25em;
   }
+
+  &[disabled] {
+    background: silver;
+    pointer-events: none;
+  }
 }
 
 .content {
