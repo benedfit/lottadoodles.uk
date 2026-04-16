@@ -1,3 +1,10 @@
+## [1.24.42](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.41...v1.24.42) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.10 ([#460](https://github.com/benedfit/lottadoodles.uk/issues/460)) ([7419370](https://github.com/benedfit/lottadoodles.uk/commit/7419370be0e8beac1f84f5cebc72759e99c98e70))
+
 ## [1.24.41](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.40...v1.24.41) (2026-04-09)
 
 
