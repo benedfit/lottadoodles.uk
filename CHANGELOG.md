@@ -1,3 +1,10 @@
+## [1.24.45](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.44...v1.24.45) (2026-04-18)
+
+
+### Bug Fixes
+
+* restore sitemap ([#470](https://github.com/benedfit/lottadoodles.uk/issues/470)) ([e458ddd](https://github.com/benedfit/lottadoodles.uk/commit/e458ddd591769caf95776ec4c24ec8dc3e48769b))
+
 ## [1.24.44](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.43...v1.24.44) (2026-04-16)
 
 
