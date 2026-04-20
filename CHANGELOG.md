@@ -1,3 +1,10 @@
+## [1.24.46](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.45...v1.24.46) (2026-04-20)
+
+
+### Bug Fixes
+
+* favicon ([2418857](https://github.com/benedfit/lottadoodles.uk/commit/24188576ec5a8a4326843690bd415068ca656162))
+
 ## [1.24.45](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.44...v1.24.45) (2026-04-18)
 
 
