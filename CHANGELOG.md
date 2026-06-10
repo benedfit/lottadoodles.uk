@@ -1,3 +1,9 @@
+## [1.24.65](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.64...v1.24.65) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update nextjs packages to v16.2.9 ([#569](https://github.com/benedfit/lottadoodles.uk/issues/569)) ([8a72870](https://github.com/benedfit/lottadoodles.uk/commit/8a72870b71b4b60be6a4512a50b85dcde4656a09))
+
 ## [1.24.64](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.63...v1.24.64) (2026-06-02)
 
 ### Bug Fixes
