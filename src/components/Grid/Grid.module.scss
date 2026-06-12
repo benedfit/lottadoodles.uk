@@ -5,7 +5,7 @@
 @include grid.gutter('', functions.spacing(2));
 @include grid.flex;
 @include grid.valign(middle);
-@include grid.widths('', 2);
+@include grid.widths('', 3);
 
 @include mixins.mq(breakpoints.$tablet-landscape) {
   @include grid.widths('tablet-landscape', 3);
