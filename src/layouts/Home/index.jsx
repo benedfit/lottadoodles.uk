@@ -16,9 +16,9 @@ import styles from './index.module.scss'
 const { fullName, shortName, logo, socialLinks, url } = config
 
 const sections = [
-  { heading: 'Portfolio', href: '/portfolio', variant: 'primary', image },
-  { heading: 'College work', href: '/college', variant: 'secondary', image },
-  { heading: 'Commisions', href: '/commisions', variant: 'tertiary', image }
+  { heading: 'Portfolio', href: '/portfolio', variant: 'primary' },
+  { heading: 'Commissions', href: '/commissions', variant: 'tertiary' },
+  { heading: 'College work', href: '/college', variant: 'secondary' }
 ]
 
 const HomeLayout = ({ meta }) => (

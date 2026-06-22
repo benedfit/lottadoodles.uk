@@ -1,14 +1,10 @@
 import { Prose } from '@newhighsco/chipset'
 import { object } from 'prop-types'
 import React from 'react'
-import urlJoin from 'url-join'
 
 import PageContainer from '~components/PageContainer'
-import config from '~config'
 
-const { url } = config
-
-const PortfolioPage = ({ meta }) => (
+const PortfolioLayout = ({ meta }) => (
   <PageContainer meta={meta} variant="primary">
     <Prose align="center">
       <h1>Portfolio</h1>
@@ -17,12 +13,6 @@ const PortfolioPage = ({ meta }) => (
   </PageContainer>
 )
 
-export const getStaticProps = async () => ({
-  props: { meta: { canonical: urlJoin(url, '/portfolio') } }
-})
+PortfolioLayout.propTypes = { meta: object }
 
-PortfolioPage.propTypes = {
-  meta: object
-}
-
-export default PortfolioPage
+export default PortfolioLayout

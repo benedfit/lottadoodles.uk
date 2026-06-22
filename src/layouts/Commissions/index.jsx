@@ -1,15 +1,11 @@
 import { Button, Card, Grid, Prose, VisuallyHidden } from '@newhighsco/chipset'
-import { object, string } from 'prop-types'
+import { object } from 'prop-types'
 import React from 'react'
-import urlJoin from 'url-join'
 
 import cardVariants from '~components/Card/Card.module.scss'
 import PageContainer from '~components/PageContainer'
 import Section from '~components/Section'
-import config from '~config'
 import image from '~images/avatar.jpg'
-
-const { url } = config
 
 const options = [
   { name: 'Sketches', description: 'Description', image, disabled: true },
@@ -17,8 +13,8 @@ const options = [
   { name: 'Glam Sheet', description: 'Description', href: '/', image }
 ]
 
-const CommisionsPage = ({ meta, variant = 'tertiary' }) => (
-  <PageContainer meta={meta} variant={variant}>
+const CommissionLayout = ({ meta }) => (
+  <PageContainer meta={meta} variant="tertiary">
     <VisuallyHidden>
       <h1>Comissions</h1>
     </VisuallyHidden>
@@ -56,15 +52,6 @@ const CommisionsPage = ({ meta, variant = 'tertiary' }) => (
   </PageContainer>
 )
 
-export const getStaticProps = async () => ({
-  props: {
-    meta: { canonical: urlJoin(url, '/commisions') }
-  }
-})
+CommissionLayout.propTypes = { meta: object }
 
-CommisionsPage.propTypes = {
-  variant: string,
-  meta: object
-}
-
-export default CommisionsPage
+export default CommissionLayout
