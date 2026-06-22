@@ -9,7 +9,6 @@ import React from 'react'
 
 import Decoration from '~components/Decoration'
 import config from '~config'
-import { ReactComponent as VGenLogo } from '~images/vgen.svg'
 
 import styles from './Footer.module.scss'
 
@@ -21,7 +20,6 @@ const links = {
     verb: 'Contact',
     preposition: 'via'
   },
-  VGen: { children: <VGenLogo /> },
   TikTok: { icon: 'simple-icons:tiktok' },
   Instagram: { icon: 'simple-icons:instagram' },
   YouTube: { icon: 'simple-icons:youtube', verb: 'Subscribe to' }
@@ -36,7 +34,7 @@ const Footer = ({ size }) => (
       inline
       links={Object.values(links)}
       renderLink={(
-        { href, icon, verb = 'Follow', preposition = 'on', children },
+        { href, icon, verb = 'Follow', preposition = 'on' },
         index
       ) => {
         const key = Object.keys(links).at(index)
@@ -47,9 +45,7 @@ const Footer = ({ size }) => (
               name={icon}
               theme={{ root: styles.icon }}
               alt={[verb, shortName, preposition, key].join(' ')}
-            >
-              {children}
-            </Icon>
+            />
           </SmartLink>
         )
       }}
