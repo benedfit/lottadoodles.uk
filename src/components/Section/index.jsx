@@ -17,10 +17,7 @@ const Section = ({ size = 'desktopLarge', children }) => {
   )
 }
 
-Section.propTypes = {
-  size: string,
-  children: node
-}
+Section.propTypes = { size: string, children: node }
 
 export default Section
 export { Section }

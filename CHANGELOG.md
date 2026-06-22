@@ -1,3 +1,799 @@
+## [1.24.71](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.70...v1.24.71) (2026-06-20)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#586](https://github.com/benedfit/lottadoodles.uk/issues/586)) ([58ebfb0](https://github.com/benedfit/lottadoodles.uk/commit/58ebfb019d940accf505d2e7d5276d93d7844c09))
+
+## [1.24.70](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.69...v1.24.70) (2026-06-12)
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.101.0 ([#577](https://github.com/benedfit/lottadoodles.uk/issues/577)) ([2042a1e](https://github.com/benedfit/lottadoodles.uk/commit/2042a1e2d1301d3fadba360d9d352661ae578ab4))
+
+## [1.24.69](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.68...v1.24.69) (2026-06-11)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#575](https://github.com/benedfit/lottadoodles.uk/issues/575)) ([9a73753](https://github.com/benedfit/lottadoodles.uk/commit/9a7375385d12ee3a3153b2ada94453041f4a59cb))
+
+## [1.24.68](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.67...v1.24.68) (2026-06-11)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages to v2.7.2 ([#574](https://github.com/benedfit/lottadoodles.uk/issues/574)) ([b1fe140](https://github.com/benedfit/lottadoodles.uk/commit/b1fe140891086e2c0348b9c38baba76c4df117f2))
+
+## [1.24.67](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.66...v1.24.67) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#573](https://github.com/benedfit/lottadoodles.uk/issues/573)) ([7deb1a0](https://github.com/benedfit/lottadoodles.uk/commit/7deb1a0a5d83c481cb716067aa29e36e514c4834))
+
+## [1.24.66](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.65...v1.24.66) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages to v3.0.172 ([#571](https://github.com/benedfit/lottadoodles.uk/issues/571)) ([d378263](https://github.com/benedfit/lottadoodles.uk/commit/d3782630e16a765bbe018881250ae0427de5c8ca))
+
+## [1.24.65](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.64...v1.24.65) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update nextjs packages to v16.2.9 ([#569](https://github.com/benedfit/lottadoodles.uk/issues/569)) ([8a72870](https://github.com/benedfit/lottadoodles.uk/commit/8a72870b71b4b60be6a4512a50b85dcde4656a09))
+
+## [1.24.64](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.63...v1.24.64) (2026-06-02)
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.7 ([#558](https://github.com/benedfit/lottadoodles.uk/issues/558)) ([ec4b879](https://github.com/benedfit/lottadoodles.uk/commit/ec4b8799f908adce0c9050a6f395f322a0218281))
+
+## [1.24.63](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.62...v1.24.63) (2026-06-02)
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.171 ([#557](https://github.com/benedfit/lottadoodles.uk/issues/557)) ([df54d24](https://github.com/benedfit/lottadoodles.uk/commit/df54d24d65f4160a4cdd7e6b9bafd3bdb7caa79a))
+
+## [1.24.62](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.61...v1.24.62) (2026-06-02)
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#555](https://github.com/benedfit/lottadoodles.uk/issues/555)) ([e166ee7](https://github.com/benedfit/lottadoodles.uk/commit/e166ee7767c40d73ad4632cecf7c3c2414ee1c1b))
+
+## [1.24.61](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.60...v1.24.61) (2026-06-02)
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.7 ([#554](https://github.com/benedfit/lottadoodles.uk/issues/554)) ([e8304a5](https://github.com/benedfit/lottadoodles.uk/commit/e8304a5d9e2d1abeed988762ca0460222bb70f62))
+
+## [1.24.60](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.59...v1.24.60) (2026-05-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.43 ([#539](https://github.com/benedfit/lottadoodles.uk/issues/539)) ([7a21449](https://github.com/benedfit/lottadoodles.uk/commit/7a21449bb1f7a4d07c2cdae0ff3f84de330be887))
+
+## [1.24.59](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.58...v1.24.59) (2026-05-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v7.0.2 ([#538](https://github.com/benedfit/lottadoodles.uk/issues/538)) ([671f508](https://github.com/benedfit/lottadoodles.uk/commit/671f508c465988ce010b12b3786a8dd4ed9d5c46))
+
+## [1.24.58](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.57...v1.24.58) (2026-05-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.100.0 ([#536](https://github.com/benedfit/lottadoodles.uk/issues/536)) ([7e0a67e](https://github.com/benedfit/lottadoodles.uk/commit/7e0a67ed3597855ce695680604b0c0c0809b83d8))
+
+## [1.24.57](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.56...v1.24.57) (2026-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.15 ([#529](https://github.com/benedfit/lottadoodles.uk/issues/529)) ([092b77f](https://github.com/benedfit/lottadoodles.uk/commit/092b77f965b9d7457ae2332b29d85abd93d1d519))
+
+## [1.24.56](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.55...v1.24.56) (2026-05-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.42 ([#515](https://github.com/benedfit/lottadoodles.uk/issues/515)) ([5c3141d](https://github.com/benedfit/lottadoodles.uk/commit/5c3141deca2f86313ad988a0e181eebef4e146e6))
+
+## [1.24.55](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.54...v1.24.55) (2026-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.170 ([#509](https://github.com/benedfit/lottadoodles.uk/issues/509)) ([5adb217](https://github.com/benedfit/lottadoodles.uk/commit/5adb217f3e5af6202c0de67f99f9bd32448033ee))
+* **deps:** update dependency next to v16.2.6 ([#510](https://github.com/benedfit/lottadoodles.uk/issues/510)) ([13b302a](https://github.com/benedfit/lottadoodles.uk/commit/13b302a4eaa86b38a5d2c660bac592edc50cebb3))
+
+## [1.24.54](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.53...v1.24.54) (2026-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.169 ([#508](https://github.com/benedfit/lottadoodles.uk/issues/508)) ([c12ff29](https://github.com/benedfit/lottadoodles.uk/commit/c12ff29cdcc54a543cb7a5b5d5f8fdb02a013e30))
+
+## [1.24.53](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.52...v1.24.53) (2026-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.6 ([#507](https://github.com/benedfit/lottadoodles.uk/issues/507)) ([4171284](https://github.com/benedfit/lottadoodles.uk/commit/4171284ef68955028ba7d12cab45902ab5777446))
+
+## [1.24.52](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.51...v1.24.52) (2026-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.5 ([#506](https://github.com/benedfit/lottadoodles.uk/issues/506)) ([0dcba32](https://github.com/benedfit/lottadoodles.uk/commit/0dcba32977ea3b5f789127c5d3cd7922d7cecfb8))
+
+## [1.24.51](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.50...v1.24.51) (2026-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.14 ([#500](https://github.com/benedfit/lottadoodles.uk/issues/500)) ([dc8d5e4](https://github.com/benedfit/lottadoodles.uk/commit/dc8d5e482559a16cffe3f9dbd67a12a682e6b8f0))
+
+## [1.24.50](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.49...v1.24.50) (2026-04-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.13 ([#492](https://github.com/benedfit/lottadoodles.uk/issues/492)) ([1b7fa83](https://github.com/benedfit/lottadoodles.uk/commit/1b7fa8365cb723a51c84dacd93d5e9ac859c49ff))
+
+## [1.24.49](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.48...v1.24.49) (2026-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#489](https://github.com/benedfit/lottadoodles.uk/issues/489)) ([5047ce2](https://github.com/benedfit/lottadoodles.uk/commit/5047ce2ddcb9e0c1f92132029ab5e7e96a34b69f))
+
+## [1.24.48](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.47...v1.24.48) (2026-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v7.0.1 ([#488](https://github.com/benedfit/lottadoodles.uk/issues/488)) ([63caf57](https://github.com/benedfit/lottadoodles.uk/commit/63caf578c548db46ebcc1cf6b60f9b0b60acda73))
+
+## [1.24.47](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.46...v1.24.47) (2026-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.12 ([#481](https://github.com/benedfit/lottadoodles.uk/issues/481)) ([b24066f](https://github.com/benedfit/lottadoodles.uk/commit/b24066f9050335b002daa6d2b4887379daf212a1))
+
+## [1.24.46](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.45...v1.24.46) (2026-04-20)
+
+
+### Bug Fixes
+
+* favicon ([2418857](https://github.com/benedfit/lottadoodles.uk/commit/24188576ec5a8a4326843690bd415068ca656162))
+
+## [1.24.45](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.44...v1.24.45) (2026-04-18)
+
+
+### Bug Fixes
+
+* restore sitemap ([#470](https://github.com/benedfit/lottadoodles.uk/issues/470)) ([e458ddd](https://github.com/benedfit/lottadoodles.uk/commit/e458ddd591769caf95776ec4c24ec8dc3e48769b))
+
+## [1.24.44](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.43...v1.24.44) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#463](https://github.com/benedfit/lottadoodles.uk/issues/463)) ([c44165c](https://github.com/benedfit/lottadoodles.uk/commit/c44165cceaf8a20860003758eee7ebc825453e19))
+
+## [1.24.43](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.42...v1.24.43) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.4 ([#459](https://github.com/benedfit/lottadoodles.uk/issues/459)) ([c5cb4f1](https://github.com/benedfit/lottadoodles.uk/commit/c5cb4f1a59b23b0970ffa5c2786036bc1043ff8a))
+
+## [1.24.42](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.41...v1.24.42) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.10 ([#460](https://github.com/benedfit/lottadoodles.uk/issues/460)) ([7419370](https://github.com/benedfit/lottadoodles.uk/commit/7419370be0e8beac1f84f5cebc72759e99c98e70))
+
+## [1.24.41](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.40...v1.24.41) (2026-04-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.39 ([#447](https://github.com/benedfit/lottadoodles.uk/issues/447)) ([dc79e66](https://github.com/benedfit/lottadoodles.uk/commit/dc79e6622842e1b7d1d4c5f9f62a0e61f2b049ca))
+
+## [1.24.40](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.39...v1.24.40) (2026-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.5 ([#445](https://github.com/benedfit/lottadoodles.uk/issues/445)) ([144a056](https://github.com/benedfit/lottadoodles.uk/commit/144a0568c88d8d61f3929677ae7a875061004809))
+
+## [1.24.39](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.38...v1.24.39) (2026-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.3 ([#443](https://github.com/benedfit/lottadoodles.uk/issues/443)) ([887ae1f](https://github.com/benedfit/lottadoodles.uk/commit/887ae1f63b31fcdc4039374e47c62219ac7fc625))
+* **deps:** update newhighsco packages ([#444](https://github.com/benedfit/lottadoodles.uk/issues/444)) ([541d727](https://github.com/benedfit/lottadoodles.uk/commit/541d72740dc41ebc7c5b56c9f0f885a9b98a4a7e))
+
+## [1.24.38](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.37...v1.24.38) (2026-04-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.9 ([#441](https://github.com/benedfit/lottadoodles.uk/issues/441)) ([88328ba](https://github.com/benedfit/lottadoodles.uk/commit/88328ba46418d809bd0dd507d918fa88fb2078af))
+
+## [1.24.37](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.36...v1.24.37) (2026-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.99.0 ([#432](https://github.com/benedfit/lottadoodles.uk/issues/432)) ([e76b8c4](https://github.com/benedfit/lottadoodles.uk/commit/e76b8c45e5c93d1fda7d4dbf35ba5023428e9cdb))
+
+## [1.24.36](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.35...v1.24.36) (2026-04-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.38 ([#429](https://github.com/benedfit/lottadoodles.uk/issues/429)) ([d3441ef](https://github.com/benedfit/lottadoodles.uk/commit/d3441efc8f566b216a93a288dfed456a13af3111))
+
+## [1.24.35](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.34...v1.24.35) (2026-04-01)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#428](https://github.com/benedfit/lottadoodles.uk/issues/428)) ([a86196f](https://github.com/benedfit/lottadoodles.uk/commit/a86196f22973b6c828adbceeee3d6d74e59a0aaf))
+
+## [1.24.34](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.33...v1.24.34) (2026-04-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.2 ([#427](https://github.com/benedfit/lottadoodles.uk/issues/427)) ([47ccab5](https://github.com/benedfit/lottadoodles.uk/commit/47ccab5b2697a4bfa9a4c52d079d5b5cd7e9d622))
+
+## [1.24.33](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.32...v1.24.33) (2026-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.165 ([#414](https://github.com/benedfit/lottadoodles.uk/issues/414)) ([c9d35bd](https://github.com/benedfit/lottadoodles.uk/commit/c9d35bd7911b8f1c4871fe060acb40ce214ebd4a))
+
+## [1.24.32](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.31...v1.24.32) (2026-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.1 ([#413](https://github.com/benedfit/lottadoodles.uk/issues/413)) ([d68d53c](https://github.com/benedfit/lottadoodles.uk/commit/d68d53ccbfa8c406f8630a2b621c688ab3daf408))
+
+## [1.24.31](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.30...v1.24.31) (2026-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.37 ([#412](https://github.com/benedfit/lottadoodles.uk/issues/412)) ([a77b495](https://github.com/benedfit/lottadoodles.uk/commit/a77b495ae20c820b9077e11c4c6f0272bbb0ef77))
+
+## [1.24.30](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.29...v1.24.30) (2026-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.164 ([#404](https://github.com/benedfit/lottadoodles.uk/issues/404)) ([a7ba8f3](https://github.com/benedfit/lottadoodles.uk/commit/a7ba8f3fa50d617599f4f9954f90e326a90bee2e))
+
+## [1.24.29](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.28...v1.24.29) (2026-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.0 ([#403](https://github.com/benedfit/lottadoodles.uk/issues/403)) ([f1d0957](https://github.com/benedfit/lottadoodles.uk/commit/f1d09578d4d5b92ab47056b741f53e01ffc837b0))
+
+## [1.24.28](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.27...v1.24.28) (2026-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#402](https://github.com/benedfit/lottadoodles.uk/issues/402)) ([e1a33bc](https://github.com/benedfit/lottadoodles.uk/commit/e1a33bca34182739cc85ef02e44f96decfdcf8ea))
+
+## [1.24.27](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.26...v1.24.27) (2026-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#400](https://github.com/benedfit/lottadoodles.uk/issues/400)) ([d6e3416](https://github.com/benedfit/lottadoodles.uk/commit/d6e34161eebc05b6d22abcc5c410372cb16a77cb))
+
+## [1.24.26](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.25...v1.24.26) (2026-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.7 ([#399](https://github.com/benedfit/lottadoodles.uk/issues/399)) ([5271a59](https://github.com/benedfit/lottadoodles.uk/commit/5271a590c1c49a4be2c757c3adae05e040dbf9a3))
+
+## [1.24.25](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.24...v1.24.25) (2026-03-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.98.0 ([#389](https://github.com/benedfit/lottadoodles.uk/issues/389)) ([95d539f](https://github.com/benedfit/lottadoodles.uk/commit/95d539f31ee727932bfd247cdc99c3927fdbf151))
+
+## [1.24.24](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.23...v1.24.24) (2026-03-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.8 ([#374](https://github.com/benedfit/lottadoodles.uk/issues/374)) ([ee49cc0](https://github.com/benedfit/lottadoodles.uk/commit/ee49cc0d06545dd90b3a6b876435e6ad23454a69))
+
+## [1.24.23](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.22...v1.24.23) (2026-02-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v7 ([#354](https://github.com/benedfit/lottadoodles.uk/issues/354)) ([9c1cf50](https://github.com/benedfit/lottadoodles.uk/commit/9c1cf505ee2898ef9c13a627bbbead7ec72a9664))
+
+## [1.24.22](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.21...v1.24.22) (2026-02-19)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#353](https://github.com/benedfit/lottadoodles.uk/issues/353)) ([9c222f5](https://github.com/benedfit/lottadoodles.uk/commit/9c222f53d415ad2da422b01c8f7cb9f2c92ced42))
+
+## [1.24.21](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.20...v1.24.21) (2026-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#333](https://github.com/benedfit/lottadoodles.uk/issues/333)) ([4cbe2c2](https://github.com/benedfit/lottadoodles.uk/commit/4cbe2c2ffcbce5420f44ea251253fdc1a9d82f67))
+
+## [1.24.20](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.19...v1.24.20) (2026-01-30)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#313](https://github.com/benedfit/lottadoodles.uk/issues/313)) ([776f3f6](https://github.com/benedfit/lottadoodles.uk/commit/776f3f60f94e2446408e2d414470acda2b0ad63c))
+
+## [1.24.19](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.18...v1.24.19) (2026-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.31 ([#308](https://github.com/benedfit/lottadoodles.uk/issues/308)) ([0d106dc](https://github.com/benedfit/lottadoodles.uk/commit/0d106dc6cc4cac246bc6e81a66e221373a74fb3d))
+
+## [1.24.18](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.17...v1.24.18) (2026-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.6 ([#307](https://github.com/benedfit/lottadoodles.uk/issues/307)) ([72a2168](https://github.com/benedfit/lottadoodles.uk/commit/72a2168decc668b93e7f216814ad2130e6ca3fec))
+
+## [1.24.17](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.16...v1.24.17) (2026-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.162 ([#306](https://github.com/benedfit/lottadoodles.uk/issues/306)) ([eb7e991](https://github.com/benedfit/lottadoodles.uk/commit/eb7e991d2215eb71c2b3786d00bf9547897a0d86))
+
+## [1.24.16](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.15...v1.24.16) (2026-01-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.161 ([#304](https://github.com/benedfit/lottadoodles.uk/issues/304)) ([1116598](https://github.com/benedfit/lottadoodles.uk/commit/111659869038cf6dd12f1fa0b7304b91999cada2))
+
+## [1.24.15](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.14...v1.24.15) (2026-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.30 ([#301](https://github.com/benedfit/lottadoodles.uk/issues/301)) ([e31885c](https://github.com/benedfit/lottadoodles.uk/commit/e31885c4437b8a90e05e7ac50026567c3b4dd87d))
+
+## [1.24.14](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.13...v1.24.14) (2026-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.4 ([#303](https://github.com/benedfit/lottadoodles.uk/issues/303)) ([22a10b9](https://github.com/benedfit/lottadoodles.uk/commit/22a10b948689af53aa3f4e5023268215f0d4d4fc))
+
+## [1.24.13](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.12...v1.24.13) (2026-01-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.5 ([#302](https://github.com/benedfit/lottadoodles.uk/issues/302)) ([d160e22](https://github.com/benedfit/lottadoodles.uk/commit/d160e22cbace4ecdd49c84f3053a1eb4b629f945))
+
+## [1.24.12](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.11...v1.24.12) (2026-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.29 ([#295](https://github.com/benedfit/lottadoodles.uk/issues/295)) ([75cde0f](https://github.com/benedfit/lottadoodles.uk/commit/75cde0f3e86f7d797fdd5e95ff4947c84501b4a6))
+
+## [1.24.11](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.10...v1.24.11) (2026-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.97.3 ([#293](https://github.com/benedfit/lottadoodles.uk/issues/293)) ([4b5a649](https://github.com/benedfit/lottadoodles.uk/commit/4b5a649a27776b5c42da4be5730256880555fa82))
+
+## [1.24.10](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.9...v1.24.10) (2026-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v6.27.1 ([#294](https://github.com/benedfit/lottadoodles.uk/issues/294)) ([56b024a](https://github.com/benedfit/lottadoodles.uk/commit/56b024a4884d39428dcb9ef395fb1252fa137b69))
+
+## [1.24.9](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.8...v1.24.9) (2026-01-20)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#289](https://github.com/benedfit/lottadoodles.uk/issues/289)) ([c6a131d](https://github.com/benedfit/lottadoodles.uk/commit/c6a131da9c9288abcf7cb066054d20e140cf76ff))
+
+## [1.24.8](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.7...v1.24.8) (2026-01-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.4 ([#288](https://github.com/benedfit/lottadoodles.uk/issues/288)) ([d6912e9](https://github.com/benedfit/lottadoodles.uk/commit/d6912e92609e2105afb713544dd9c1a79b85c95e))
+
+## [1.24.7](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.6...v1.24.7) (2026-01-16)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#285](https://github.com/benedfit/lottadoodles.uk/issues/285)) ([a128428](https://github.com/benedfit/lottadoodles.uk/commit/a128428ecdfa26f03aa57922c11eb6a04f5aeb83))
+
+## [1.24.6](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.5...v1.24.6) (2026-01-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.3 ([#284](https://github.com/benedfit/lottadoodles.uk/issues/284)) ([6da9a6b](https://github.com/benedfit/lottadoodles.uk/commit/6da9a6b0bbed0ab110aaa041ad29f1090b4f016a))
+
+## [1.24.5](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.4...v1.24.5) (2026-01-16)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#283](https://github.com/benedfit/lottadoodles.uk/issues/283)) ([143802e](https://github.com/benedfit/lottadoodles.uk/commit/143802e0413610236bd02833735f2923c8be85ce))
+
+## [1.24.4](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.3...v1.24.4) (2026-01-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.25 ([#282](https://github.com/benedfit/lottadoodles.uk/issues/282)) ([e07dd1d](https://github.com/benedfit/lottadoodles.uk/commit/e07dd1dc892596e75740d53d347503fcbdfccfa8))
+
+## [1.24.3](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.2...v1.24.3) (2026-01-15)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#281](https://github.com/benedfit/lottadoodles.uk/issues/281)) ([fc9ce7a](https://github.com/benedfit/lottadoodles.uk/commit/fc9ce7a5c1069de13a82eab2590257a514a25c1e))
+
+## [1.24.2](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.1...v1.24.2) (2026-01-15)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#279](https://github.com/benedfit/lottadoodles.uk/issues/279)) ([04ff452](https://github.com/benedfit/lottadoodles.uk/commit/04ff452b863cd2c8f2fcab7b6722d8b6bd24d561))
+
+## [1.24.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.0...v1.24.1) (2026-01-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.2 ([#277](https://github.com/benedfit/lottadoodles.uk/issues/277)) ([43011ac](https://github.com/benedfit/lottadoodles.uk/commit/43011acaa95c3092f31056cdcc0a708bb722a0a3))
+
+# [1.24.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.43...v1.24.0) (2026-01-07)
+
+
+### Features
+
+* **social-link:** remove Bluesky and reorder ([#273](https://github.com/benedfit/lottadoodles.uk/issues/273)) ([10167e8](https://github.com/benedfit/lottadoodles.uk/commit/10167e8478c9f1fabe453c5905290485c74930f9))
+
+## [1.23.43](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.42...v1.23.43) (2026-01-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.97.2 ([#271](https://github.com/benedfit/lottadoodles.uk/issues/271)) ([67431c0](https://github.com/benedfit/lottadoodles.uk/commit/67431c0656cbf3a25d102da9cd6304159e231efe))
+
+## [1.23.42](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.41...v1.23.42) (2025-12-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.1 ([#267](https://github.com/benedfit/lottadoodles.uk/issues/267)) ([bc15041](https://github.com/benedfit/lottadoodles.uk/commit/bc15041a70f458bd87f6ee46c06ccc599157a14a))
+
+## [1.23.41](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.40...v1.23.41) (2025-12-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.97.1 ([#265](https://github.com/benedfit/lottadoodles.uk/issues/265)) ([7c66907](https://github.com/benedfit/lottadoodles.uk/commit/7c66907cf3c52edeb00655dd95724278dc0b32c1))
+
+## [1.23.40](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.39...v1.23.40) (2025-12-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.1.0 ([#264](https://github.com/benedfit/lottadoodles.uk/issues/264)) ([25e7607](https://github.com/benedfit/lottadoodles.uk/commit/25e7607164f8d025de2dd55e272bd024a1d3ca44))
+
+## [1.23.39](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.38...v1.23.39) (2025-12-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.97.0 ([#263](https://github.com/benedfit/lottadoodles.uk/issues/263)) ([bf2f590](https://github.com/benedfit/lottadoodles.uk/commit/bf2f5909b158e08661a49b46b4004d1f5823e339))
+
+## [1.23.38](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.37...v1.23.38) (2025-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.3 ([#260](https://github.com/benedfit/lottadoodles.uk/issues/260)) ([54d8651](https://github.com/benedfit/lottadoodles.uk/commit/54d8651a23bc3f1aed25fa1fecc6ca064a89610a))
+
+## [1.23.37](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.36...v1.23.37) (2025-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.10 ([#259](https://github.com/benedfit/lottadoodles.uk/issues/259)) ([26825b7](https://github.com/benedfit/lottadoodles.uk/commit/26825b7566bfe969c09e419c4c2db23a0dc0cf31))
+
+## [1.23.36](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.35...v1.23.36) (2025-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.9 ([#257](https://github.com/benedfit/lottadoodles.uk/issues/257)) ([c723bfc](https://github.com/benedfit/lottadoodles.uk/commit/c723bfc7ec3b55b7d085a0d5a75a951971bb5255))
+
+## [1.23.35](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.34...v1.23.35) (2025-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.2 ([#258](https://github.com/benedfit/lottadoodles.uk/issues/258)) ([29a8fea](https://github.com/benedfit/lottadoodles.uk/commit/29a8fead52c8b154b8890996a1a5ff6323eb669b))
+
+## [1.23.34](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.33...v1.23.34) (2025-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.96.0 ([#256](https://github.com/benedfit/lottadoodles.uk/issues/256)) ([ce3eb96](https://github.com/benedfit/lottadoodles.uk/commit/ce3eb96785125f530a5a62b6253ae91d146a9bf2))
+
+## [1.23.33](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.32...v1.23.33) (2025-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.95.1 ([#254](https://github.com/benedfit/lottadoodles.uk/issues/254)) ([fa7bf84](https://github.com/benedfit/lottadoodles.uk/commit/fa7bf84267a765272567f33542073abf304d809f))
+
+## [1.23.32](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.31...v1.23.32) (2025-12-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.8 ([#252](https://github.com/benedfit/lottadoodles.uk/issues/252)) ([3568f56](https://github.com/benedfit/lottadoodles.uk/commit/3568f56ea0c8875b78f6eaea6441027f5d987167))
+
+## [1.23.31](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.30...v1.23.31) (2025-12-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.23 ([#251](https://github.com/benedfit/lottadoodles.uk/issues/251)) ([d8c2392](https://github.com/benedfit/lottadoodles.uk/commit/d8c239234b6911b54f62566702ecfb7af2eeccf7))
+
+## [1.23.30](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.29...v1.23.30) (2025-12-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.95.0 ([#250](https://github.com/benedfit/lottadoodles.uk/issues/250)) ([195590b](https://github.com/benedfit/lottadoodles.uk/commit/195590b539d86c0043dfb76c66db9e580cced59d))
+
+## [1.23.29](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.28...v1.23.29) (2025-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.22 ([#246](https://github.com/benedfit/lottadoodles.uk/issues/246)) ([7ff9e5e](https://github.com/benedfit/lottadoodles.uk/commit/7ff9e5e5e0ec6444249ff505cbc3a56ff008d0b3))
+
+## [1.23.28](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.27...v1.23.28) (2025-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.1 ([#245](https://github.com/benedfit/lottadoodles.uk/issues/245)) ([f9079fb](https://github.com/benedfit/lottadoodles.uk/commit/f9079fb0f94b3fd0c686f7a533cbf9baba7ca583))
+
+## [1.23.27](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.26...v1.23.27) (2025-12-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.7 ([#244](https://github.com/benedfit/lottadoodles.uk/issues/244)) ([0f8521d](https://github.com/benedfit/lottadoodles.uk/commit/0f8521dac2cdfc94a43ace67c9cc83a75563e353))
+
+## [1.23.26](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.25...v1.23.26) (2025-11-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.6 ([#239](https://github.com/benedfit/lottadoodles.uk/issues/239)) ([a2506e4](https://github.com/benedfit/lottadoodles.uk/commit/a2506e432a4900c1b067eb79306232afa3977935))
+
+## [1.23.25](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.24...v1.23.25) (2025-11-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.21 ([#238](https://github.com/benedfit/lottadoodles.uk/issues/238)) ([faa8766](https://github.com/benedfit/lottadoodles.uk/commit/faa87660f90080002bb06ad51eac64b914e29bc8))
+
+## [1.23.24](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.23...v1.23.24) (2025-11-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.20 ([#229](https://github.com/benedfit/lottadoodles.uk/issues/229)) ([31590dd](https://github.com/benedfit/lottadoodles.uk/commit/31590ddb7c4809ce10fb20a1804a1f640b01f6ea))
+
+## [1.23.23](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.22...v1.23.23) (2025-11-27)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#228](https://github.com/benedfit/lottadoodles.uk/issues/228)) ([b24b6bc](https://github.com/benedfit/lottadoodles.uk/commit/b24b6bc417ed1273db4c2dc9195d74a2ac71ad28))
+
+## [1.23.22](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.21...v1.23.22) (2025-11-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.5 ([#227](https://github.com/benedfit/lottadoodles.uk/issues/227)) ([08e2181](https://github.com/benedfit/lottadoodles.uk/commit/08e2181b374cbe98f6b539d2c6f56de87d244676))
+
+## [1.23.21](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.20...v1.23.21) (2025-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.18 ([#226](https://github.com/benedfit/lottadoodles.uk/issues/226)) ([3c615a1](https://github.com/benedfit/lottadoodles.uk/commit/3c615a12e371a4d103090b123696d883dcea63f0))
+
+## [1.23.20](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.19...v1.23.20) (2025-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.4 ([#225](https://github.com/benedfit/lottadoodles.uk/issues/225)) ([5780020](https://github.com/benedfit/lottadoodles.uk/commit/5780020d601b52f2c3db2b8de9d60d2fd016a8fc))
+
+## [1.23.19](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.18...v1.23.19) (2025-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.17 ([#223](https://github.com/benedfit/lottadoodles.uk/issues/223)) ([38047cf](https://github.com/benedfit/lottadoodles.uk/commit/38047cfb06faec51bc34d779a8b42782979f5df4))
+
+## [1.23.18](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.17...v1.23.18) (2025-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#222](https://github.com/benedfit/lottadoodles.uk/issues/222)) ([4251678](https://github.com/benedfit/lottadoodles.uk/commit/425167836fce773f263e15d184fc2092ba48d69d))
+
+## [1.23.17](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.16...v1.23.17) (2025-11-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.94.2 ([#218](https://github.com/benedfit/lottadoodles.uk/issues/218)) ([53c561f](https://github.com/benedfit/lottadoodles.uk/commit/53c561fad691f439fc8b0906d6695061c1f169ac))
+
+## [1.23.16](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.15...v1.23.16) (2025-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.94.1 ([#215](https://github.com/benedfit/lottadoodles.uk/issues/215)) ([c9c7f61](https://github.com/benedfit/lottadoodles.uk/commit/c9c7f6191845cc36275954e2c15ee00bca29a263))
+
+## [1.23.15](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.14...v1.23.15) (2025-11-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.16 ([#209](https://github.com/benedfit/lottadoodles.uk/issues/209)) ([d2f819b](https://github.com/benedfit/lottadoodles.uk/commit/d2f819b7f97182b0009697a1de86c98113080dfe))
+
+## [1.23.14](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.13...v1.23.14) (2025-11-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.3 ([#208](https://github.com/benedfit/lottadoodles.uk/issues/208)) ([d5b6c4a](https://github.com/benedfit/lottadoodles.uk/commit/d5b6c4a864f7d3295c0bcf93db9af1d715fd25e1))
+
+## [1.23.13](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.12...v1.23.13) (2025-11-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.15 ([#207](https://github.com/benedfit/lottadoodles.uk/issues/207)) ([bc07683](https://github.com/benedfit/lottadoodles.uk/commit/bc07683c534cc1853493a67144de02d8bb55420b))
+
+## [1.23.12](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.11...v1.23.12) (2025-11-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.0.2 ([#206](https://github.com/benedfit/lottadoodles.uk/issues/206)) ([d13e20c](https://github.com/benedfit/lottadoodles.uk/commit/d13e20c35ae4686ab097b0efa56785df82ed7427))
+
+## [1.23.11](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.10...v1.23.11) (2025-11-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.94.0 ([#203](https://github.com/benedfit/lottadoodles.uk/issues/203)) ([1b644c2](https://github.com/benedfit/lottadoodles.uk/commit/1b644c281a047db2e400a6d86c82f3c1ec4bb1e0))
+
+## [1.23.10](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.9...v1.23.10) (2025-11-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.14 ([#201](https://github.com/benedfit/lottadoodles.uk/issues/201)) ([10c1b91](https://github.com/benedfit/lottadoodles.uk/commit/10c1b912784f059c588e64f030ec953963a672de))
+
+## [1.23.9](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.8...v1.23.9) (2025-11-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v6.25.3 ([#200](https://github.com/benedfit/lottadoodles.uk/issues/200)) ([5a34d2f](https://github.com/benedfit/lottadoodles.uk/commit/5a34d2fcf546385ff4522bca555cff9fe2f44ae0))
+
+## [1.23.8](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.7...v1.23.8) (2025-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#197](https://github.com/benedfit/lottadoodles.uk/issues/197)) ([41c0de6](https://github.com/benedfit/lottadoodles.uk/commit/41c0de67297dcf2d5105bd692313e56309c2675c))
+
+## [1.23.7](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.6...v1.23.7) (2025-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16 ([#185](https://github.com/benedfit/lottadoodles.uk/issues/185)) ([efa0cfa](https://github.com/benedfit/lottadoodles.uk/commit/efa0cfa90c855f71a7b643093c7b5e2d95425c05))
+
+## [1.23.6](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.5...v1.23.6) (2025-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.6.12 ([#196](https://github.com/benedfit/lottadoodles.uk/issues/196)) ([5b32bf0](https://github.com/benedfit/lottadoodles.uk/commit/5b32bf050bbc904181b0690a4c83ea9d4918b37d))
+
+## [1.23.5](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.4...v1.23.5) (2025-11-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.93.3 ([#189](https://github.com/benedfit/lottadoodles.uk/issues/189)) ([d9f854b](https://github.com/benedfit/lottadoodles.uk/commit/d9f854b5cce21e7f5823f824cd7fb18f7cf8c70b))
+
+## [1.23.4](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.3...v1.23.4) (2025-10-19)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([#179](https://github.com/benedfit/lottadoodles.uk/issues/179)) ([6bf2849](https://github.com/benedfit/lottadoodles.uk/commit/6bf2849d757f0d2ea017676fac2bc1b9d34bf67a))
+
+## [1.23.3](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.2...v1.23.3) (2025-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.5.6 ([#178](https://github.com/benedfit/lottadoodles.uk/issues/178)) ([86b49b1](https://github.com/benedfit/lottadoodles.uk/commit/86b49b1db627625f314b24514d0021e851bddc4e))
+
+## [1.23.2](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.1...v1.23.2) (2025-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.5.5 ([#175](https://github.com/benedfit/lottadoodles.uk/issues/175)) ([22af73e](https://github.com/benedfit/lottadoodles.uk/commit/22af73e41aea0521d0cb451f5185ff6953280f10))
+
+## [1.23.1](https://github.com/benedfit/lottadoodles.uk/compare/v1.23.0...v1.23.1) (2025-10-14)
+
+
+### Bug Fixes
+
+* **header:** adjust mobile padding ([f6c575f](https://github.com/benedfit/lottadoodles.uk/commit/f6c575f46336891996e186ceeee0ddeb6a429d4e))
+
 # [1.23.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.22.11...v1.23.0) (2025-10-14)
 
 
