@@ -18,6 +18,7 @@ const config = {
   socialLinks: {
     Instagram: 'https://www.instagram.com/lotta.doodles',
     TikTok: 'https://www.tiktok.com/@lotta.doodles',
+    VGen: 'https://vgen.co/lottadoodles',
     YouTube: 'https://www.youtube.com/@lottadoodles'
   }
 }

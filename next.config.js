@@ -12,6 +12,16 @@ const nextConfig = {
       destination:
         'https://charlotte8539.wixsite.com/charlotteeanimation/:slug*',
       permanent: true
+    },
+    {
+      source: '/commissions',
+      destination: 'https://vgen.co/lottadoodles',
+      permanent: true
+    },
+    {
+      source: '/portfolio',
+      destination: 'https://vgen.co/lottadoodles/portfolio',
+      permanent: true
     }
   ],
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],
