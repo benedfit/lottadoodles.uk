@@ -1,3 +1,9 @@
+## [1.25.0](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.71...v1.25.0) (2026-06-22)
+
+### Features
+
+* new pages ([#151](https://github.com/benedfit/lottadoodles.uk/issues/151)) ([edc83f1](https://github.com/benedfit/lottadoodles.uk/commit/edc83f1f21f5a9bb11f11599695c7bea2736318a))
+
 ## [1.24.71](https://github.com/benedfit/lottadoodles.uk/compare/v1.24.70...v1.24.71) (2026-06-20)
 
 ### Bug Fixes
