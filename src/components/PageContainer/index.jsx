@@ -45,20 +45,7 @@ const PageContainer = ({ size = 'desktopLarge', variant, meta, children }) => {
           <meta name="theme-color" content={theme.background} />
         </Head>
       )}
-      <Meta
-        {...meta}
-        additionalLinkTags={[
-          ...[{ path: 'cera-round-pro' }].map(
-            ({ path, weight = 'regular', extension = 'woff' }) => ({
-              rel: 'preload',
-              href: `/fonts/${path}/${weight}.${extension}`,
-              as: 'font',
-              type: `font/${extension}`,
-              crossOrigin: 'anonymous'
-            })
-          )
-        ]}
-      />
+      <Meta {...meta} />
       <Decoration id="star" className={styles.star} />
       <Decoration id="diamond" className={styles.diamond} />
       <Decoration id="circle" className={styles.circle} />
