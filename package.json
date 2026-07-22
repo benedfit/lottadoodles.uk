@@ -49,7 +49,7 @@
     "next-videos": "1.5.0",
     "postcss": "8.5.21",
     "react": "19.2.7",
-    "react-dom": "19.2.7",
+    "react-dom": "19.2.8",
     "sass": "1.101.3"
   },
   "devDependencies": {
