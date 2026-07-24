@@ -65,7 +65,7 @@
     "@newhighsco/stylelint-config": "4.0.54",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
-    "concurrently": "10.0.3",
+    "concurrently": "10.0.4",
     "eslint": "10.7.0",
     "husky": "9.1.7",
     "lint-staged": "17.2.0",
