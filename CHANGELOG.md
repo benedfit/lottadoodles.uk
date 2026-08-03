@@ -1,3 +1,5 @@
+## [1.26.23](https://github.com/benedfit/lottadoodles.uk/compare/v1.26.22...v1.26.23) (2026-08-03)
+
 ## [1.26.22](https://github.com/benedfit/lottadoodles.uk/compare/v1.26.21...v1.26.22) (2026-07-30)
 
 ## [1.26.21](https://github.com/benedfit/lottadoodles.uk/compare/v1.26.20...v1.26.21) (2026-07-29)
